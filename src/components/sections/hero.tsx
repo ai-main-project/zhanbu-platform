@@ -3,12 +3,12 @@
 
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { StarrySky } from "@/components/common/starry-sky"
+import { DynamicStarrySky } from "@/components/common/dynamic-starry-sky"
 
 export function Hero() {
   return (
     <section className="relative h-[calc(100vh-5rem)] w-full">
-      <StarrySky />
+      <DynamicStarrySky />
       <div className="container mx-auto flex h-full flex-col items-center justify-center text-center relative z-10">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
