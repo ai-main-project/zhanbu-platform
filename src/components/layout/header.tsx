@@ -1,5 +1,7 @@
 
 import Link from "next/link"
+import { NavigationMenu } from "./navigation-menu"
+import { Button } from "@/components/ui/button"
 
 export function Header() {
   return (
@@ -8,9 +10,13 @@ export function Header() {
         <Link href="/" className="font-serif-display text-2xl font-bold text-stardust">
           灵启之门
         </Link>
-        <nav>
-          {/* Future navigation links can go here */}
-        </nav>
+        <div className="flex-grow flex justify-center">
+          <NavigationMenu />
+        </div>
+        <div className="flex items-center space-x-2">
+            <Button variant="ghost" className="text-silvermoon hover:text-stardust">登录</Button>
+            <Button variant="outline" className="border-stardust text-stardust hover:bg-stardust hover:text-abyss">注册</Button>
+        </div>
       </div>
     </header>
   )
