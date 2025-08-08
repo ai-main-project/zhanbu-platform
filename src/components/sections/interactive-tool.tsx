@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Sun, Moon, Heart } from "lucide-react"
+import { Moon, Heart } from "lucide-react"
 
 export function InteractiveTool() {
   return (

@@ -1,0 +1,20 @@
+{
+  "Header": {
+    "title": "Gate of Divine Revelation",
+    "login": "Login",
+    "register": "Register"
+  },
+  "Navigation": {
+    "bazi": "Bazi",
+    "bazi_chart": "Natal Chart",
+    "bazi_synastry": "Synastry",
+    "astrology": "Astrology",
+    "astrology_natal": "Natal Chart",
+    "astrology_synastry": "Synastry",
+    "tarot": "Tarot",
+    "tarot_single": "Single Card",
+    "tarot_spread": "Spread",
+    "ai_reading": "AI Reading",
+    "calendar": "Spiritual Calendar"
+  }
+}

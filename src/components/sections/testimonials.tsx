@@ -52,7 +52,7 @@ export function Testimonials() {
                       <Star key={s} className="h-4 w-4 fill-current text-stardust" />
                     ))}
                   </div>
-                  <blockquote className="mt-4 italic text-silvermoon">"{testimonial.quote}"</blockquote>
+                  <blockquote className="mt-4 italic text-silvermoon">&quot;{testimonial.quote}&quot;</blockquote>
                   <p className="mt-4 text-right font-bold text-gold-leaf">- {testimonial.name}</p>
                 </CardContent>
               </Card>
