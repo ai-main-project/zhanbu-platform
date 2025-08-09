@@ -4,9 +4,12 @@
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter } from "@/components/ui/dialog"
-import { Input } from "@/components/ui/input" // We will create this component next
+import { Input } from "@/components/ui/input"
+import { useTranslations } from "next-intl"
 
 export function CallToAction() {
+  const t = useTranslations("CallToAction")
+
   return (
     <section className="bg-cosmic-purple/50 py-24 sm:py-32">
       <div className="container mx-auto text-center">
@@ -17,7 +20,7 @@ export function CallToAction() {
           transition={{ duration: 0.8 }}
           className="font-serif-display text-4xl font-bold text-gold-leaf md:text-5xl"
         >
-          开启你的灵性之旅
+          {t("title")}
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -26,7 +29,7 @@ export function CallToAction() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="mx-auto mt-4 max-w-2xl text-lg text-silvermoon/80"
         >
-          订阅我们的独家内容，获取每周运势、占卜折扣和灵性文章。
+          {t("description")}
         </motion.p>
         <Dialog>
           <DialogTrigger asChild>
@@ -38,15 +41,15 @@ export function CallToAction() {
               className="mt-8"
             >
               <Button size="lg" className="animate-pulse-glow border-gold-leaf bg-gold-leaf/90 text-cosmic-purple hover:bg-gold-leaf">
-                立即订阅
+                {t("get_started")}
               </Button>
             </motion.div>
           </DialogTrigger>
           <DialogContent className="sm:max-w-[425px]">
             <DialogHeader>
-              <DialogTitle>订阅电子报</DialogTitle>
+              <DialogTitle>{t("dialog_title")}</DialogTitle>
               <DialogDescription>
-                输入您的邮箱，第一时间接收来自宇宙的神秘信息。
+                {t("dialog_description")}
               </DialogDescription>
             </DialogHeader>
             <div className="grid gap-4 py-4">
@@ -59,7 +62,7 @@ export function CallToAction() {
             </div>
             <DialogFooter>
               <Button type="submit" className="bg-gold-leaf text-cosmic-purple hover:bg-gold-leaf/90">
-                确认订阅
+                {t("dialog_cta")}
               </Button>
             </DialogFooter>
           </DialogContent>

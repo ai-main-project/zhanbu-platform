@@ -4,8 +4,11 @@
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { DynamicStarrySky } from "@/components/common/dynamic-starry-sky"
+import { useTranslations } from "next-intl"
 
 export function Hero() {
+  const t = useTranslations("Hero")
+
   return (
     <section className="relative h-[calc(100vh-5rem)] w-full">
       <DynamicStarrySky />
@@ -16,7 +19,7 @@ export function Hero() {
           transition={{ duration: 0.8 }}
           className="font-serif-display text-6xl font-bold tracking-tight text-stardust md:text-8xl"
         >
-          灵启之门
+          {t("title")}
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -24,7 +27,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="mt-4 max-w-2xl text-lg text-silvermoon md:text-xl"
         >
-          洞见未来，启迪人生。探索宇宙的奥秘，发现真实的自我。
+          {t("subtitle")}
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -33,7 +36,7 @@ export function Hero() {
           className="mt-8"
         >
           <Button size="lg" variant="outline" className="border-stardust text-stardust hover:bg-stardust hover:text-abyss">
-            开始探索
+            {t("cta")}
           </Button>
         </motion.div>
       </div>

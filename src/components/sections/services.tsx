@@ -4,26 +4,29 @@
 import { motion } from "framer-motion"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Star, Sun, Moon } from "lucide-react"
-
-const services = [
-  {
-    title: "八字命理",
-    description: "揭示您的生辰八字，洞察一生的运势起伏与机缘。",
-    icon: <Sun className="h-12 w-12 text-stardust" />,
-  },
-  {
-    title: "西方占星",
-    description: "通过星盘解读，探索您的性格特质、天赋及未来潜能。",
-    icon: <Star className="h-12 w-12 text-stardust" />,
-  },
-  {
-    title: "塔罗占卜",
-    description: "借助塔罗牌的象征力量，为您在迷茫时指引方向。",
-    icon: <Moon className="h-12 w-12 text-stardust" />,
-  },
-]
+import { useTranslations } from "next-intl"
 
 export function Services() {
+  const t = useTranslations("Services")
+
+  const services = [
+    {
+      title: t("bazi_title"),
+      description: t("bazi_description"),
+      icon: <Sun className="h-12 w-12 text-stardust" />,
+    },
+    {
+      title: t("astrology_title"),
+      description: t("astrology_description"),
+      icon: <Star className="h-12 w-12 text-stardust" />,
+    },
+    {
+      title: t("tarot_title"),
+      description: t("tarot_description"),
+      icon: <Moon className="h-12 w-12 text-stardust" />,
+    },
+  ]
+
   return (
     <section id="services" className="container mx-auto py-24 sm:py-32">
       <div className="grid gap-8 md:grid-cols-3">

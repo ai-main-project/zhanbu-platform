@@ -4,26 +4,29 @@
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Star } from "lucide-react"
-
-const testimonials = [
-  {
-    name: "Alex R.",
-    quote: "这里的八字命理分析非常精准，让我对自己的职业规划有了全新的认识。",
-    stars: 5,
-  },
-  {
-    name: "Jessica M.",
-    quote: "Luna大师的塔罗解读给了我很大的安慰和力量，帮助我走出了困境。",
-    stars: 5,
-  },
-  {
-    name: "David L.",
-    quote: "网站的设计太棒了，充满了神秘感和高级感，体验非常好。",
-    stars: 5,
-  },
-]
+import { useTranslations } from "next-intl"
 
 export function Testimonials() {
+  const t = useTranslations("Testimonials")
+
+  const testimonials = [
+    {
+      name: t("testimonial_1_author"),
+      quote: t("testimonial_1_text"),
+      stars: 5,
+    },
+    {
+      name: t("testimonial_2_author"),
+      quote: t("testimonial_2_text"),
+      stars: 5,
+    },
+    {
+      name: t("testimonial_3_author"),
+      quote: t("testimonial_3_text"),
+      stars: 5,
+    },
+  ]
+
   return (
     <section className="py-24 sm:py-32">
       <div className="container mx-auto text-center">
@@ -34,7 +37,7 @@ export function Testimonials() {
           transition={{ duration: 0.8 }}
           className="font-serif-display text-4xl font-bold text-gold-leaf md:text-5xl"
         >
-          来自客户的声音
+          {t("title")}
         </motion.h2>
         <div className="mt-12 grid gap-8 md:grid-cols-3">
           {testimonials.map((testimonial, i) => (

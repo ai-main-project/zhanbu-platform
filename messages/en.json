@@ -16,5 +16,58 @@
     "tarot_spread": "Spread",
     "ai_reading": "AI Reading",
     "calendar": "Spiritual Calendar"
+  },
+  "Hero": {
+    "title": "Explore the Mysteries of Your Destiny",
+    "subtitle": "Integrating ancient wisdom with modern technology to provide you with profound life insights.",
+    "cta": "Get Your Bazi Reading"
+  },
+  "Services": {
+    "title": "Our Services",
+    "description": "A variety of tools to help you explore different aspects of your life.",
+    "bazi_title": "Bazi Reading",
+    "bazi_description": "Gain deep insights into your personality, potential, and future.",
+    "astrology_title": "Astrology Chart",
+    "astrology_description": "Understand your life's blueprint through the positions of the stars.",
+    "tarot_title": "Tarot Reading",
+    "tarot_description": "Find answers to your questions and guidance for your path."
+  },
+  "FeaturedMaster": {
+    "title": "Featured Master",
+    "master_name": "Master Xuanji",
+    "master_bio": "With 30 years of experience in Bazi and Feng Shui, Master Xuanji is dedicated to helping people find clarity and direction in life.",
+    "learn_more": "Learn More",
+    "reviews": "Based on 128 reviews",
+    "about": "About {master_name}"
+  },
+  "InteractiveTool": {
+    "title": "Try Our Interactive Bazi Tool",
+    "description": "Enter your birth information to get your personalized Bazi chart and interpretation instantly.",
+    "try_now": "Try Now",
+    "tarot_tab": "Daily Tarot",
+    "zodiac_tab": "Zodiac Match",
+    "tarot_description": "Draw a card to see what the universe has in store for you today.",
+    "tarot_cta": "Draw My Daily Tarot Card",
+    "zodiac_description": "Enter your and your partner's zodiac signs to see your compatibility."
+  },
+  "Testimonials": {
+    "title": "What Our Users Say",
+    "testimonial_1_text": "This is the most accurate Bazi reading I've ever had. It gave me so much clarity on my career path.",
+    "testimonial_1_author": "Aria Chen",
+    "testimonial_2_text": "The synastry chart was incredibly insightful for my relationship. I understand my partner so much better now.",
+    "testimonial_2_author": "Leo Zhang",
+    "testimonial_3_text": "I was skeptical about AI reading at first, but the report was surprisingly detailed and accurate. Highly recommended!",
+    "testimonial_3_author": "Sara Li"
+  },
+  "CallToAction": {
+    "title": "Ready to Begin Your Journey?",
+    "description": "Join thousands of users who have found guidance and inspiration through our platform.",
+    "get_started": "Get Started for Free",
+    "dialog_title": "Subscribe to our newsletter",
+    "dialog_description": "Enter your email to receive mystical insights from the universe.",
+    "dialog_cta": "Subscribe"
+  },
+  "Footer": {
+    "copyright": "© {year} Gate of Divine Revelation. All rights reserved."
   }
 }

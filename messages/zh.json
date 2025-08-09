@@ -16,5 +16,58 @@
     "tarot_spread": "牌阵占卜",
     "ai_reading": "AI命盘解读",
     "calendar": "灵性日历"
+  },
+  "Hero": {
+    "title": "探索你命运的奥秘",
+    "subtitle": "融合古代智慧与现代科技，为您提供深刻的人生洞见。",
+    "cta": "获取您的八字解读"
+  },
+  "Services": {
+    "title": "我们的服务",
+    "description": "多种工具助您探索人生的不同方面。",
+    "bazi_title": "八字解读",
+    "bazi_description": "深入了解您的个性、潜力与未来。",
+    "astrology_title": "占星术",
+    "astrology_description": "通过星盘揭示您的人生蓝图。",
+    "tarot_title": "塔罗牌解读",
+    "tarot_description": "为您的疑问找到答案，为您的道路提供指引。"
+  },
+  "FeaturedMaster": {
+    "title": "特邀大师",
+    "master_name": "玄机大师",
+    "master_bio": "拥有30年八字与风水经验，玄机大师致力于帮助人们找到人生的清晰方向。",
+    "learn_more": "了解更多",
+    "reviews": "基于 128 条评价",
+    "about": "关于 {master_name}"
+  },
+  "InteractiveTool": {
+    "title": "体验互动占卜",
+    "description": "无需等待，立即获得来自宇宙的即时指引。",
+    "try_now": "立即试用",
+    "tarot_tab": "每日塔罗",
+    "zodiac_tab": "星座速配",
+    "tarot_description": "抽一张牌，看看今日宇宙给你的启示。",
+    "tarot_cta": "抽取我的今日塔罗牌",
+    "zodiac_description": "输入你和TA的星座，看看你们的匹配指数。"
+  },
+  "Testimonials": {
+    "title": "用户评价",
+    "testimonial_1_text": "这是我做过的最准的八字解读，让我的职业道路清晰了很多。",
+    "testimonial_1_author": "陈雅",
+    "testimonial_2_text": "合盘对我们的关系非常有启发，我现在更了解我的伴侣了。",
+    "testimonial_2_author": "张磊",
+    "testimonial_3_text": "一开始对AI解读持怀疑态度，但报告出乎意料地详细和准确。强烈推荐！",
+    "testimonial_3_author": "李莎"
+  },
+  "CallToAction": {
+    "title": "准备好开始您的旅程了吗？",
+    "description": "加入成千上万通过我们平台找到指引和灵感的用户的行列。",
+    "get_started": "免费开始",
+    "dialog_title": "订阅电子报",
+    "dialog_description": "输入您的邮箱，第一时间接收来自宇宙的神秘信息。",
+    "dialog_cta": "确认订阅"
+  },
+  "Footer": {
+    "copyright": "© {year} 灵启之门. 版权所有."
   }
 }
