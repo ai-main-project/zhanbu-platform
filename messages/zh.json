@@ -15,7 +15,8 @@
     "tarot_single": "单张牌解读",
     "tarot_spread": "牌阵占卜",
     "ai_reading": "AI命盘解读",
-    "calendar": "灵性日历"
+    "calendar": "灵性日历",
+    "horoscope": "星座运势"
   },
   "Hero": {
     "title": "探索你命运的奥秘",
@@ -30,7 +31,9 @@
     "astrology_title": "占星术",
     "astrology_description": "通过星盘揭示您的人生蓝图。",
     "tarot_title": "塔罗牌解读",
-    "tarot_description": "为您的疑问找到答案，为您的道路提供指引。"
+    "tarot_description": "为您的疑问找到答案，为您的道路提供指引。",
+    "horoscope_title": "星座运势",
+    "horoscope_description": "查看您的每日、每周和每月运势。"
   },
   "FeaturedMaster": {
     "title": "特邀大师",

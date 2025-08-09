@@ -107,6 +107,7 @@ export function NavigationMenu() {
         { titleKey: "tarot_spread", href: "/tarot/spread" },
       ],
     },
+    { titleKey: "horoscope", href: "/horoscope" },
     { titleKey: "ai_reading", href: "/ai-reading" },
     { titleKey: "calendar", href: "/calendar" },
   ]

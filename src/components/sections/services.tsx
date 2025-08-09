@@ -3,7 +3,7 @@
 
 import { motion } from "framer-motion"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
-import { Star, Sun, Moon } from "lucide-react"
+import { Star, Sun, Moon, Sparkles } from "lucide-react"
 import { useTranslations } from "next-intl"
 
 export function Services() {
@@ -25,11 +25,16 @@ export function Services() {
       description: t("tarot_description"),
       icon: <Moon className="h-12 w-12 text-stardust" />,
     },
+    {
+      title: t("horoscope_title"),
+      description: t("horoscope_description"),
+      icon: <Sparkles className="h-12 w-12 text-stardust" />,
+    },
   ]
 
   return (
     <section id="services" className="container mx-auto py-24 sm:py-32">
-      <div className="grid gap-8 md:grid-cols-3">
+      <div className="grid gap-8 md:grid-cols-4">
         {services.map((service, i) => (
           <motion.div
             key={service.title}

@@ -15,7 +15,8 @@
     "tarot_single": "Single Card",
     "tarot_spread": "Spread",
     "ai_reading": "AI Reading",
-    "calendar": "Spiritual Calendar"
+    "calendar": "Spiritual Calendar",
+    "horoscope": "Horoscope"
   },
   "Hero": {
     "title": "Explore the Mysteries of Your Destiny",
@@ -30,7 +31,9 @@
     "astrology_title": "Astrology Chart",
     "astrology_description": "Understand your life's blueprint through the positions of the stars.",
     "tarot_title": "Tarot Reading",
-    "tarot_description": "Find answers to your questions and guidance for your path."
+    "tarot_description": "Find answers to your questions and guidance for your path.",
+    "horoscope_title": "Zodiac Horoscope",
+    "horoscope_description": "Check your daily, weekly, and monthly horoscope."
   },
   "FeaturedMaster": {
     "title": "Featured Master",
