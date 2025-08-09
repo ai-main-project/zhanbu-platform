@@ -103,8 +103,8 @@ export function NavigationMenu() {
       titleKey: "tarot",
       href: "/tarot",
       subItems: [
-        { titleKey: "tarot_single", href: "/tarot/single" },
-        { titleKey: "tarot_spread", href: "/tarot/spread" },
+        { titleKey: "single_card_draw", href: "/tarot/single-draw" },
+        { titleKey: "three_card_spread", href: "/tarot/three-card" },
       ],
     },
     { titleKey: "horoscope", href: "/horoscope" },

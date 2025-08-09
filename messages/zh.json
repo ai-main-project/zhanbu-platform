@@ -12,8 +12,8 @@
     "astrology_natal": "个人星盘",
     "astrology_synastry": "关系合盘",
     "tarot": "塔罗占卜",
-    "tarot_single": "单张牌解读",
-    "tarot_spread": "牌阵占卜",
+    "single_card_draw": "单张牌解读",
+    "three_card_spread": "三张牌牌阵",
     "ai_reading": "AI命盘解读",
     "calendar": "灵性日历",
     "horoscope": "星座运势"
@@ -72,5 +72,158 @@
   },
   "Footer": {
     "copyright": "© {year} 灵启之门. 版权所有."
+  },
+  "Tarot": {
+    "landing_title": "塔罗占卜",
+    "landing_subtitle": "从牌中寻求指引。选择一个牌阵开始您的解读，揭示等待您的洞见。",
+    "single_card_draw": "单张牌解读",
+    "single_card_description": "为特定问题提供快速指引或简单答案。",
+    "three_card_spread": "三张牌牌阵",
+    "three_card_description": "探索某个情况的过去、现在和未来动态。",
+    "focus_on_question": "专注于你的问题。准备好后，抽一张牌。",
+    "question_placeholder": "在此输入您的问题（可选）...",
+    "draw_card_cta": "抽一张牌",
+    "draw_again_cta": "再抽一次",
+    "upright_meaning": "正位含义",
+    "reversed_meaning": "逆位含义",
+    "your_question": "您的问题：",
+    "focus_on_question_three": "专注于你的问题。准备好后，抽三张牌。",
+    "draw_three_cards_cta": "抽三张牌",
+    "position_past": "过去",
+    "position_present": "现在",
+    "position_future": "未来",
+    "reveal_cards_cta": "揭示牌面",
+    "the_fool": {
+      "name": "愚人",
+      "keywords": "新的开始, 天真, 自发性, 自由精神",
+      "meaning_up": "代表新的开始，承担风险，拥抱不确定性。一场进入未知的旅程。",
+      "meaning_rev": "鲁莽，被利用，不顾后果，逃避风险。"
+    },
+    "the_magician": {
+      "name": "魔术师",
+      "keywords": "显化, 足智多谋, 力量, 受启发的行动",
+      "meaning_up": "个人力量，显化，以及有效利用个人技能和资源的能力。",
+      "meaning_rev": "操控，计划不周，才能未被发掘。"
+    },
+    "the_high_priestess": {
+      "name": "女祭司",
+      "keywords": "直觉, 神圣知识, 神圣女性, 潜意识",
+      "meaning_up": "象征直觉，深层智慧，隐藏的知识和灵性。",
+      "meaning_rev": "秘密，与直觉脱节，退缩和沉默。"
+    },
+    "the_empress": {
+      "name": "皇后",
+      "keywords": "女性气质, 美丽, 自然, 哺育, 丰富",
+      "meaning_up": "暗示生育，丰富，哺育和拥抱自然世界。",
+      "meaning_rev": "创意受阻，依赖他人，空虚。"
+    },
+    "the_emperor": {
+      "name": "皇帝",
+      "keywords": "权威, 建立, 结构, 父亲形象",
+      "meaning_up": "代表权威，结构，稳定以及组织和控制的能力。",
+      "meaning_rev": "统治，过度控制，缺乏纪律，不灵活。"
+    },
+    "the_hierophant": {
+      "name": "教皇",
+      "keywords": "精神智慧, 宗教信仰, 整合, 传统, 制度",
+      "meaning_up": "传统，整合，精神指导，以及从既定制度中寻求智慧。",
+      "meaning_rev": "个人信念，自由，挑战现状。"
+    },
+    "the_lovers": {
+      "name": "恋人",
+      "keywords": "爱, 和谐, 关系, 价值观一致, 选择",
+      "meaning_up": "象征爱情，关系，选择，以及在情感和理性之间找到平衡的需求。",
+      "meaning_rev": "不和谐，失衡，价值观不一致。"
+    },
+    "the_chariot": {
+      "name": "战车",
+      "keywords": "控制, 意志力, 胜利, 主张, 决心",
+      "meaning_up": "暗示决心，控制，意志力，以及克服障碍以取得成功。",
+      "meaning_rev": "失控和方向，侵略。"
+    },
+    "strength": {
+      "name": "力量",
+      "keywords": "力量, 勇气, 耐心, 控制, 同情",
+      "meaning_up": "内在力量，勇气，耐力，以及驾驭和控制强大情感的能力。",
+      "meaning_rev": "软弱，自我怀疑，缺乏自律。"
+    },
+    "the_hermit": {
+      "name": "隐士",
+      "keywords": "灵魂探索, 内省, 独处, 内在指引",
+      "meaning_up": "象征内省，独处，灵魂探索，以及从内心寻求答案。",
+      "meaning_rev": "孤立，孤独，退缩。"
+    },
+    "wheel_of_fortune": {
+      "name": "命运之轮",
+      "keywords": "好运, 因果报应, 生命循环, 命运, 转折点",
+      "meaning_up": "命运，财富，成功，提升，运气，幸福。",
+      "meaning_rev": "坏运气，抗拒改变，打破循环。"
+    },
+    "justice": {
+      "name": "正义",
+      "keywords": "正义, 公平, 真相, 因果, 法律",
+      "meaning_up": "公平，正当，正直，执行。",
+      "meaning_rev": "不公，缺乏问责，不诚实。"
+    },
+    "the_hanged_man": {
+      "name": "倒吊人",
+      "keywords": "暂停, 投降, 放手, 新视角",
+      "meaning_up": "投降，放手，牺牲。通过改变观点获得新的视角。",
+      "meaning_rev": "延迟，抵抗，停滞，犹豫不决。"
+    },
+    "death": {
+      "name": "死神",
+      "keywords": "结束, 改变, 转变, 过渡",
+      "meaning_up": "象征转变，改变，以及一个阶段的结束，为新的开始让路。",
+      "meaning_rev": "抗拒改变，个人转变，内在清洗。"
+    },
+    "temperance": {
+      "name": "节制",
+      "keywords": "平衡, 适度, 耐心, 目的",
+      "meaning_up": "象征适度，和谐，耐心，以及找到中间地带。",
+      "meaning_rev": "失衡，过度，自我修复，重新调整。"
+    },
+    "the_devil": {
+      "name": "恶魔",
+      "keywords": "束缚, 成瘾, 性欲, 唯物主义",
+      "meaning_up": "诱惑，成瘾，唯物主义，以及摆脱负面影响的重要性。",
+      "meaning_rev": "超脱，挣脱束缚，重获力量。"
+    },
+    "the_tower": {
+      "name": "塔",
+      "keywords": "突然的变化, 剧变, 混乱, 启示, 觉醒",
+      "meaning_up": "突然的变化，剧变，混乱，以及旧结构的瓦解以创造新事物。",
+      "meaning_rev": "个人转变，害怕改变，避免灾难。"
+    },
+    "the_star": {
+      "name": "星星",
+      "keywords": "希望, 信念, 目的, 更新, 灵性",
+      "meaning_up": "象征希望，灵感，治愈，以及对自己和宇宙重拾信心。",
+      "meaning_rev": "缺乏信念，绝望，自我怀疑，脱节。"
+    },
+    "the_moon": {
+      "name": "月亮",
+      "keywords": "幻觉, 恐惧, 焦虑, 潜意识, 直觉",
+      "meaning_up": "象征直觉，梦想，幻觉，以及需要相信自己的直觉。",
+      "meaning_rev": "释放恐惧，压抑的情感，内心混乱。"
+    },
+    "the_sun": {
+      "name": "太阳",
+      "keywords": "积极, 乐趣, 温暖, 成功, 活力",
+      "meaning_up": "暗示快乐，成功，丰富，以及无条件爱的温暖。",
+      "meaning_rev": "内在小孩，情绪低落，过于乐观。"
+    },
+    "judgement": {
+      "name": "审判",
+      "keywords": "审判, 重生, 内心呼唤, 赦免",
+      "meaning_up": "代表个人反思，自我评估，重生和救赎。",
+      "meaning_rev": "自我怀疑，内心批判，忽视呼唤。"
+    },
+    "the_world": {
+      "name": "世界",
+      "keywords": "完成, 整合, 成就, 旅行",
+      "meaning_up": "象征完成，满足，完整，以及生命各方面的整合。",
+      "meaning_rev": "寻求个人了结，走捷径，延迟。"
+    }
   }
 }
