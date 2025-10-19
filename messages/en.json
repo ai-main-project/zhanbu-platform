@@ -225,5 +225,10 @@
       "meaning_up": "Signifies completion, fulfillment, wholeness, and the integration of all aspects of life.",
       "meaning_rev": "Seeking personal closure, short-cuts, delays."
     }
+  },
+  "Palmistry": {
+    "title": "Palmistry",
+    "subtitle": "Uncover the secrets hidden in your hands. Our AI-powered palm reading provides insights into your character, love life, and destiny.",
+    "loading": "Analyzing your hand..."
   }
 }
