@@ -8,9 +8,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build:worker": "cloudflare",
-    "deploy": "wrangler deploy",
-    "preview": "wrangler dev"
+    "build:worker": "opennextjs-cloudflare build",
+    "deploy": "opennextjs-cloudflare deploy",
+    "preview": "opennextjs-cloudflare preview"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.14",
