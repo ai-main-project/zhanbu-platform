@@ -4,6 +4,9 @@
     "login": "Login",
     "register": "Register"
   },
+  "LocaleSwitcher": {
+    "label": "Language"
+  },
   "Navigation": {
     "bazi": "Bazi",
     "bazi_chart": "Natal Chart",
@@ -36,9 +39,11 @@
     "horoscope_description": "Check your daily, weekly, and monthly horoscope."
   },
   "FeaturedMaster": {
+    "featured_badge": "Featured Master",
     "title": "Featured Master",
     "master_name": "Master Xuanji",
     "master_bio": "With 30 years of experience in Bazi and Feng Shui, Master Xuanji is dedicated to helping people find clarity and direction in life.",
+    "master_bio_extended": "Master Xuanji is not only an expert in traditional Bazi and Feng Shui but also integrates modern psychology and big data analysis. Over the past 30 years, he has provided precise life navigation and destiny advice to tens of thousands of clients.",
     "learn_more": "Learn More",
     "reviews": "Based on 128 reviews",
     "about": "About {master_name}"

@@ -1,10 +1,11 @@
 
 'use client';
 
-import {Link} from '@/i18n/navigation';
+import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 import { NavigationMenu } from "./navigation-menu"
 import { Button } from "@/components/ui/button"
+import { LocaleSwitcher } from "./locale-switcher"
 
 export function Header() {
   const t = useTranslations('Header');
@@ -18,9 +19,12 @@ export function Header() {
         <div className="flex-grow flex justify-center">
           <NavigationMenu />
         </div>
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-1 sm:space-x-4">
+          <LocaleSwitcher />
+          <div className="flex items-center space-x-2">
             <Button variant="ghost" className="text-silvermoon hover:text-stardust">{t('login')}</Button>
             <Button variant="outline" className="border-stardust text-stardust hover:bg-stardust hover:text-abyss">{t('register')}</Button>
+          </div>
         </div>
       </div>
     </header>

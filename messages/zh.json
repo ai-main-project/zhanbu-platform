@@ -4,6 +4,9 @@
     "login": "登录",
     "register": "注册"
   },
+  "LocaleSwitcher": {
+    "label": "语言"
+  },
   "Navigation": {
     "bazi": "八字命理",
     "bazi_chart": "本命盘",
@@ -36,9 +39,11 @@
     "horoscope_description": "查看您的每日、每周和每月运势。"
   },
   "FeaturedMaster": {
+    "featured_badge": "特邀大师",
     "title": "特邀大师",
     "master_name": "玄机大师",
     "master_bio": "拥有30年八字与风水经验，玄机大师致力于帮助人们找到人生的清晰方向。",
+    "master_bio_extended": "玄机大师不仅精通传统的八字命理与风水学，还结合了现代心理学与大数据分析。在过去三十年中，他已为数万名客户提供了精准的人生导航与运势建议。",
     "learn_more": "了解更多",
     "reviews": "基于 128 条评价",
     "about": "关于 {master_name}"
