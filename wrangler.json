@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "zhanbu-platform",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-01-09",
+  	"compatibility_flags": [
+		"nodejs_compat",
+		"global_fetch_strictly_public"
+	],
+	"assets": {
+		"binding": "ASSETS",
+		"directory": ".open-next/assets"
+	},
+	"observability": {
+		"enabled": true
+	},
+	"upload_source_maps": true,
+  "keep_vars": true
+}
