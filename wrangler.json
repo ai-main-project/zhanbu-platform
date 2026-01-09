@@ -15,5 +15,6 @@
 		"enabled": true
 	},
 	"upload_source_maps": true,
-  "keep_vars": true
+	"keep_vars": true,
+	"minify": false
 }
