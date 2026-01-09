@@ -2,6 +2,7 @@ import {NextConfig} from 'next';
 import createNextIntlPlugin from 'next-intl/plugin';
  
 const nextConfig: NextConfig = {
+    output: 'standalone',
     // async rewrites() {
     //     // 确保只在开发环境中启用代理
     //     if (process.env.NODE_ENV !== 'development') {
