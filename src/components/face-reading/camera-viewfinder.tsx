@@ -21,49 +21,49 @@ export function CameraViewfinder() {
                 ></div>
 
                 {/* Dark Overlay for contrast */}
-                <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/60 pointer-events-none"></div>
+                <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40 pointer-events-none"></div>
 
                 {/* Floating Progress Bar */}
                 <div className="absolute top-6 left-1/2 -translate-x-1/2 w-[85%] z-20">
                     <div className="flex flex-col gap-2">
                         <div className="flex justify-between items-center px-1">
-                            <span className="text-white/90 text-xs font-medium tracking-wider uppercase drop-shadow-md">{t("scanning")}</span>
-                            <span className="text-tech-cyan text-xs font-bold font-mono drop-shadow-[0_0_5px_rgba(0,240,255,0.8)]">85%</span>
+                            <span className="text-white/90 text-xs font-medium tracking-wider uppercase drop-shadow-sm">{t("scanning")}</span>
+                            <span className="text-primary-light text-xs font-bold font-mono drop-shadow-sm">85%</span>
                         </div>
-                        <div className="h-1.5 w-full bg-black/40 backdrop-blur-sm rounded-full overflow-hidden border border-white/10">
-                            <div className="h-full bg-primary relative rounded-full w-[85%]">
+                        <div className="h-1.5 w-full bg-white/20 backdrop-blur-sm rounded-full overflow-hidden border border-white/30">
+                            <div className="h-full bg-gradient-to-r from-primary to-accent-pink relative rounded-full w-[85%]">
                                 <div className="absolute inset-0 bg-white/20 animate-pulse"></div>
                             </div>
                         </div>
-                        <p className="text-center text-white/80 text-[10px] mt-1 font-light">{t("hold_steady")}</p>
+                        <p className="text-center text-white/90 text-[10px] mt-1 font-medium">{t("hold_steady")}</p>
                     </div>
                 </div>
 
                 {/* Face Mesh Overlay */}
                 <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-80">
                     {/* Central Target Box */}
-                    <div className="relative w-64 h-80 border border-white/20 rounded-[3rem] overflow-hidden">
+                    <div className="relative w-64 h-80 border border-white/40 rounded-[3rem] overflow-hidden">
                         {/* Corner Markers */}
-                        <div className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-tech-cyan rounded-tl-xl"></div>
-                        <div className="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-tech-cyan rounded-tr-xl"></div>
-                        <div className="absolute bottom-0 left-0 w-8 h-8 border-b-2 border-l-2 border-tech-cyan rounded-bl-xl"></div>
-                        <div className="absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 border-tech-cyan rounded-br-xl"></div>
+                        <div className="absolute top-0 left-0 w-8 h-8 border-t-[3px] border-l-[3px] border-primary rounded-tl-xl border-opacity-80"></div>
+                        <div className="absolute top-0 right-0 w-8 h-8 border-t-[3px] border-r-[3px] border-primary rounded-tr-xl border-opacity-80"></div>
+                        <div className="absolute bottom-0 left-0 w-8 h-8 border-b-[3px] border-l-[3px] border-primary rounded-bl-xl border-opacity-80"></div>
+                        <div className="absolute bottom-0 right-0 w-8 h-8 border-b-[3px] border-r-[3px] border-primary rounded-br-xl border-opacity-80"></div>
 
                         {/* Facial Landmarks */}
-                        <div className="absolute top-[35%] left-[25%] w-3 h-3 bg-tech-cyan rounded-full shadow-[0_0_10px_#00f0ff] animate-pulse"></div>
-                        <div className="absolute top-[35%] right-[25%] w-3 h-3 bg-tech-cyan rounded-full shadow-[0_0_10px_#00f0ff] animate-pulse" style={{ animationDelay: "0.1s" }}></div>
-                        <div className="absolute top-[55%] left-1/2 -translate-x-1/2 w-2 h-2 bg-tech-cyan/70 rounded-full"></div>
-                        <div className="absolute bottom-[20%] left-1/2 -translate-x-1/2 w-8 h-1 bg-tech-cyan/40 rounded-full"></div>
+                        <div className="absolute top-[35%] left-[25%] w-3 h-3 bg-accent-pink rounded-full shadow-[0_0_8px_rgba(253,164,175,0.8)] animate-pulse"></div>
+                        <div className="absolute top-[35%] right-[25%] w-3 h-3 bg-accent-pink rounded-full shadow-[0_0_8px_rgba(253,164,175,0.8)] animate-pulse" style={{ animationDelay: "0.1s" }}></div>
+                        <div className="absolute top-[55%] left-1/2 -translate-x-1/2 w-2 h-2 bg-primary/80 rounded-full"></div>
+                        <div className="absolute bottom-[20%] left-1/2 -translate-x-1/2 w-8 h-1 bg-primary/60 rounded-full"></div>
 
                         {/* Connecting Lines */}
                         <svg className="absolute inset-0 w-full h-full" fill="none" viewBox="0 0 256 320" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M80 110 L128 170 L176 110" stroke="rgba(0, 240, 255, 0.3)" strokeDasharray="4 4" strokeWidth="1"></path>
-                            <path d="M128 170 L128 250" stroke="rgba(0, 240, 255, 0.3)" strokeWidth="1"></path>
-                            <circle cx="128" cy="170" r="40" stroke="rgba(0, 240, 255, 0.1)" strokeWidth="1"></circle>
+                            <path d="M80 110 L128 170 L176 110" stroke="rgba(167, 139, 250, 0.4)" strokeDasharray="4 4" strokeWidth="1.5"></path>
+                            <path d="M128 170 L128 250" stroke="rgba(167, 139, 250, 0.4)" strokeWidth="1.5"></path>
+                            <circle cx="128" cy="170" r="40" stroke="rgba(167, 139, 250, 0.2)" strokeWidth="1"></circle>
                         </svg>
 
                         {/* Scanning Beam */}
-                        <div className="absolute left-0 right-0 h-1 bg-gradient-to-r from-transparent via-tech-cyan to-transparent shadow-[0_0_15px_#00f0ff] animate-scan z-10"></div>
+                        <div className="absolute left-0 right-0 h-1 bg-gradient-to-r from-transparent via-primary to-transparent shadow-[0_0_10px_#a78bfa] animate-scan z-10"></div>
                     </div>
                 </div>
 

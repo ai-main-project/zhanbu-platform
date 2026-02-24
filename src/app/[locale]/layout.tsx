@@ -31,7 +31,7 @@ export default async function LocaleLayout({
   }
 
   return (
-    <html lang={locale} className="dark">
+    <html lang={locale} suppressHydrationWarning>
       <body className="overflow-x-hidden">
         <NextIntlClientProvider>
           <div className="flex flex-col min-h-screen">

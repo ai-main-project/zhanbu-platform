@@ -23,17 +23,17 @@ export function LocaleSwitcher() {
     return (
         <Popover>
             <PopoverTrigger asChild>
-                <Button variant="ghost" size="sm" className="flex items-center gap-2 text-silvermoon hover:text-stardust">
+                <Button variant="ghost" size="sm" className="flex items-center gap-2 text-slate-500 hover:text-primary hover:bg-primary/5">
                     <Languages className="h-4 w-4" />
                     <span className="uppercase text-xs font-semibold">{locale}</span>
                 </Button>
             </PopoverTrigger>
-            <PopoverContent align="end" className="w-32 border-gold-leaf/20 bg-midnight/95 backdrop-blur-xl p-1">
+            <PopoverContent align="end" className="w-32 border-primary/10 bg-white/95 backdrop-blur-xl p-1 shadow-soft">
                 <div className="flex flex-col gap-1">
                     <Button
                         variant="ghost"
                         size="sm"
-                        className={`justify-start text-xs ${locale === 'en' ? 'text-gold-leaf bg-gold-leaf/10' : 'text-silvermoon'}`}
+                        className={`justify-start text-xs ${locale === 'en' ? 'text-primary bg-primary/10' : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'}`}
                         onClick={() => onLocaleChange('en')}
                     >
                         English
@@ -41,7 +41,7 @@ export function LocaleSwitcher() {
                     <Button
                         variant="ghost"
                         size="sm"
-                        className={`justify-start text-xs ${locale === 'zh' ? 'text-gold-leaf bg-gold-leaf/10' : 'text-silvermoon'}`}
+                        className={`justify-start text-xs ${locale === 'zh' ? 'text-primary bg-primary/10' : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'}`}
                         onClick={() => onLocaleChange('zh')}
                     >
                         简体中文

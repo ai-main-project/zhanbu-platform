@@ -12,16 +12,18 @@ export default function ProfilePage() {
     const t = useTranslations("Profile");
 
     return (
-        <div className="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-white transition-colors duration-200 min-h-screen pb-24">
+        <div className="bg-background-light font-display text-slate-800 transition-colors py-4 duration-200 min-h-screen pb-24">
             <div className="relative flex h-full w-full flex-col overflow-x-hidden max-w-md mx-auto">
                 {/* Top App Bar */}
-                <header className="sticky top-0 z-50 flex items-center bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md p-4 pb-2 justify-between">
-                    <Link href="/" className="text-slate-900 dark:text-white flex size-12 shrink-0 items-center justify-center rounded-full hover:bg-slate-200 dark:hover:bg-white/10 transition-colors">
+                <header className="sticky top-0 z-50 flex items-center bg-white/80 backdrop-blur-md p-4 pb-2 justify-between border-b border-primary/10 shadow-sm">
+                    <Link href="/" className="text-slate-600 flex size-10 shrink-0 items-center justify-center rounded-full hover:bg-slate-100 hover:text-primary transition-colors">
                         <span className="material-symbols-outlined text-[24px]">arrow_back</span>
                     </Link>
-                    <h2 className="text-slate-900 dark:text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">{t("title")}</h2>
-                    <div className="flex w-12 items-center justify-end">
-                        <button className="text-primary/80 dark:text-[#a492c9] hover:text-primary dark:hover:text-white text-base font-bold leading-normal tracking-[0.015em] shrink-0 transition-colors">Edit</button>
+                    <h2 className="text-slate-800 text-lg font-bold leading-tight tracking-tight flex-1 text-center">{t("title")}</h2>
+                    <div className="flex w-10 items-center justify-end">
+                        <button className="text-primary hover:text-primary-dark hover:bg-primary/5 size-10 rounded-full flex items-center justify-center transition-colors">
+                            <span className="material-symbols-outlined text-[20px]">edit</span>
+                        </button>
                     </div>
                 </header>
 

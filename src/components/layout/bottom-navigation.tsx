@@ -46,20 +46,20 @@ export function BottomNavigation() {
     ];
 
     return (
-        <div className="fixed bottom-0 left-0 right-0 bg-[#161022]/90 backdrop-blur-lg border-t border-white/5 pb-5 pt-2 px-2 z-50">
+        <div className="fixed bottom-0 left-0 right-0 bg-white/90 backdrop-blur-lg border-t border-primary/10 pb-5 pt-2 px-2 z-50 shadow-[0_-4px_20px_rgba(0,0,0,0.02)]">
             <div className="flex justify-around items-end max-w-md mx-auto h-full">
                 {navItems.map((item) => (
                     <Link
                         key={item.href}
                         href={item.href}
-                        className={`flex flex-col items-center gap-1 min-w-[60px] group transition-all duration-300 ${item.active ? 'text-primary' : 'text-slate-500 hover:text-slate-300'}`}
+                        className={`flex flex-col items-center gap-1 min-w-[60px] group transition-all duration-300 ${item.active ? 'text-primary' : 'text-slate-400 hover:text-slate-600'}`}
                     >
                         <div className="relative p-1">
-                            <span className={`material-symbols-outlined text-[26px] transition-transform duration-300 ${item.active ? 'scale-110 fill-current' : 'group-hover:scale-105'}`}>
+                            <span className={`material-symbols-outlined text-[26px] transition-transform duration-300 ${item.active ? 'scale-110 fill-current drop-shadow-sm' : 'group-hover:scale-105'}`}>
                                 {item.icon}
                             </span>
                             {item.active && (
-                                <div className="absolute -top-1 right-0 w-2 h-2 bg-primary rounded-full shadow-[0_0_8px_rgba(236,182,19,0.5)]"></div>
+                                <div className="absolute -top-1 right-0 w-2 h-2 bg-primary rounded-full shadow-sm animate-bounce-soft"></div>
                             )}
                         </div>
                         <span className={`text-[10px] font-medium tracking-wide ${item.active ? 'text-primary' : ''}`}>

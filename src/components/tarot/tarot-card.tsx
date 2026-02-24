@@ -22,7 +22,6 @@ export function TarotCard({
     isCenter = false
 }: TarotCardProps) {
     const t = useTranslations("Tarot");
-    const cardT = card ? useTranslations(`Tarot.${card.name_key}`) : null;
 
     const positionIcons = {
         past: "history",
@@ -42,29 +41,31 @@ export function TarotCard({
                 transition={{ duration: 0.8, ease: "easeInOut" }}
             >
                 {/* Card Back */}
-                <div className={`absolute inset-0 backface-hidden rounded-lg ${isCenter ? 'bg-[#231b33] border-accent-gold/60 shadow-[0_0_25px_rgba(91,19,236,0.2)] ring-1 ring-accent-gold/20' : 'bg-[#1a1528] border-accent-gold/30 shadow-[0_0_15px_rgba(0,0,0,0.5)]'} border overflow-hidden`}>
-                    <div className={`absolute inset-1 border ${isCenter ? 'border-accent-gold/40' : 'border-accent-gold/20 opacity-60'} rounded tarot-pattern`}></div>
+                <div className={`absolute inset-0 backface-hidden rounded-2xl ${isCenter ? 'bg-gradient-to-br from-primary to-accent-pink border-white shadow-soft-hover ring-2 ring-primary/30' : 'bg-gradient-to-br from-primary-light to-white border-primary/20 shadow-soft'} border-2 overflow-hidden`}>
+                    <div className={`absolute inset-2 border-2 ${isCenter ? 'border-white/40' : 'border-primary/10'} rounded-xl tarot-pattern opacity-50`}></div>
                     <div className="absolute inset-0 flex items-center justify-center">
-                        <span className={`material-symbols-outlined ${isCenter ? 'text-accent-gold/60 text-3xl animate-pulse' : 'text-accent-gold/30 text-2xl'}`}>
+                        <span className={`material-symbols-outlined ${isCenter ? 'text-white text-[40px] animate-bounce-soft' : 'text-primary/40 text-3xl'}`}>
                             {positionIcons[position]}
                         </span>
                     </div>
                 </div>
 
                 {/* Card Face */}
-                <div className={`absolute inset-0 backface-hidden rotate-y-180 rounded-lg bg-gradient-to-br from-[#2a1f40] to-[#1a1528] border border-accent-gold/50 shadow-[0_0_20px_rgba(212,175,55,0.2)] overflow-hidden ${isReversed ? 'rotate-180' : ''}`}>
-                    <div className="absolute inset-1 border border-accent-gold/30 rounded"></div>
-                    <div className="absolute inset-0 flex flex-col items-center justify-center p-3">
-                        {cardT && (
+                <div className={`absolute inset-0 backface-hidden rotate-y-180 rounded-2xl bg-white border-2 border-primary/20 shadow-soft overflow-hidden ${isReversed ? 'rotate-180' : ''}`}>
+                    <div className="absolute inset-1.5 border border-primary/10 rounded-xl bg-slate-50/50"></div>
+                    <div className="absolute inset-0 flex flex-col items-center justify-center p-4">
+                        {card && (
                             <>
-                                <span className="material-symbols-outlined text-accent-gold text-4xl mb-2">
-                                    {positionIcons[position]}
-                                </span>
-                                <h3 className="text-accent-gold font-bold text-sm text-center leading-tight">
-                                    {cardT("name")}
+                                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+                                    <span className="material-symbols-outlined text-primary text-2xl">
+                                        {positionIcons[position]}
+                                    </span>
+                                </div>
+                                <h3 className="text-slate-800 font-bold text-sm text-center leading-tight px-1">
+                                    {t(`${card.name_key}.name`)}
                                 </h3>
                                 {isReversed && (
-                                    <span className="text-xs text-white/50 mt-1">({t("reversed_meaning").split(" ")[0]})</span>
+                                    <span className="text-xs text-slate-500 mt-1">({t(`${card.name_key}.reversed_meaning`).split(" ")[0]})</span>
                                 )}
                             </>
                         )}

@@ -59,6 +59,7 @@
   },
   "Profile": {
     "title": "Profile",
+    "name_placeholder": "Alex Star-Gazer",
     "level_badge": "Level 5: Star Seeker",
     "daily_insight": "Daily Insight",
     "luck_score": "Luck Score",
@@ -640,5 +641,19 @@
     "title": "Palmistry",
     "subtitle": "Uncover the secrets hidden in your hands. Our AI-powered palm reading provides insights into your character, love life, and destiny.",
     "loading": "Analyzing your hand..."
+  },
+  "TarotPage": {
+    "title": "Tarot & Divination",
+    "reading_title": "Start AI Reading",
+    "reading_desc": "Connect with the cards to reveal insights about love, career, and life.",
+    "enter_portal": "ENTER PORTAL"
+  },
+  "AstrologyPage": {
+    "title": "Astrology Tools",
+    "bazi_title": "Bazi Analysis",
+    "bazi_desc": "Detailed analysis of your Four Pillars and Five Elements balance with AI insights.",
+    "star_chart_title": "Star Chart",
+    "star_chart_desc": "Coming Soon. Western astrology birth chart analysis.",
+    "coming_soon": "Coming Soon"
   }
 }

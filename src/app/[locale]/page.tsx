@@ -5,7 +5,7 @@ import { BottomNavigation } from "@/components/layout/bottom-navigation";
 
 export default function HomePage() {
   return (
-    <div className="relative min-h-screen w-full bg-mystic-gradient flex flex-col pb-24">
+    <div className="relative min-h-screen w-full bg-mystic-gradient flex flex-col pb-24 text-slate-800">
       <Hero />
       <Services />
       <BottomNavigation />

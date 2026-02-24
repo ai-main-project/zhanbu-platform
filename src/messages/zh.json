@@ -59,6 +59,7 @@
   },
   "Profile": {
     "title": "个人中心",
+    "name_placeholder": "星辰探索者",
     "level_badge": "Lv.5 寻星者",
     "daily_insight": "今日洞察",
     "luck_score": "气运分",
@@ -640,5 +641,19 @@
     "title": "手相",
     "subtitle": "揭开隐藏在您手中的秘密。我们由AI驱动的手相解读，为您提供关于性格、爱情和命运的洞见。",
     "loading": "正在分析您的手相..."
+  },
+  "TarotPage": {
+    "title": "塔罗与占卜",
+    "reading_title": "开始 AI 占卜",
+    "reading_desc": "与塔罗牌建立连接，揭示关于爱情、事业和生活的深刻洞见。",
+    "enter_portal": "进入灵境"
+  },
+  "AstrologyPage": {
+    "title": "算命工具",
+    "bazi_title": "八字详批",
+    "bazi_desc": "结合AI洞察，深度解析您的四柱八字与五行平衡。",
+    "star_chart_title": "个人星盘",
+    "star_chart_desc": "即将上线。西方占星出生星盘解析。",
+    "coming_soon": "敬请期待"
   }
 }

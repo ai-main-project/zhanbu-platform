@@ -148,10 +148,10 @@ export function OracleChat({ cards, isReversed, isRevealed, onSendMessage }: Ora
     };
 
     return (
-        <div className="flex-1 bg-white/5 backdrop-blur-xl border-t border-white/10 rounded-t-3xl relative flex flex-col overflow-hidden shadow-[0_-10px_40px_rgba(0,0,0,0.3)]">
+        <div className="flex-1 bg-white/90 backdrop-blur-xl border-t border-primary/10 rounded-t-[2.5rem] relative flex flex-col overflow-hidden shadow-[0_-10px_40px_rgba(167,139,250,0.1)]">
             {/* Handle */}
             <div className="w-full flex justify-center pt-3 pb-1">
-                <div className="w-12 h-1 bg-white/20 rounded-full"></div>
+                <div className="w-12 h-1.5 bg-slate-200 rounded-full"></div>
             </div>
 
             {/* Messages Area */}
@@ -163,21 +163,21 @@ export function OracleChat({ cards, isReversed, isRevealed, onSendMessage }: Ora
                     >
                         {message.role === "oracle" && (
                             <div
-                                className="bg-gradient-to-br from-primary/50 to-purple-900 rounded-full w-10 h-10 shrink-0 border border-accent-gold/30 shadow-[0_0_10px_rgba(212,175,55,0.2)] flex items-center justify-center"
+                                className="bg-primary/10 rounded-full w-10 h-10 shrink-0 border border-primary/20 shadow-sm flex items-center justify-center"
                             >
-                                <span className="material-symbols-outlined text-accent-gold text-lg">auto_awesome</span>
+                                <span className="material-symbols-outlined text-primary text-lg">auto_awesome</span>
                             </div>
                         )}
                         <div className={`flex flex-1 flex-col gap-1 ${message.role === "user" ? "items-end" : "items-start"}`}>
                             {message.role === "oracle" && (
-                                <div className="flex items-center gap-2">
-                                    <p className="text-[#a492c9] text-[11px] font-bold uppercase tracking-wider">{t("oracle_name")}</p>
-                                    <span className="material-symbols-outlined text-primary" style={{ fontSize: "12px" }}>verified</span>
+                                <div className="flex items-center gap-2 px-1">
+                                    <p className="text-slate-500 text-[11px] font-bold uppercase tracking-wider">{t("oracle_name")}</p>
+                                    <span className="material-symbols-outlined text-emerald-400" style={{ fontSize: "12px" }}>verified</span>
                                 </div>
                             )}
-                            <div className={`text-base font-normal leading-relaxed max-w-[320px] rounded-2xl px-5 py-4 shadow-md ${message.role === "user"
-                                    ? "rounded-br-none bg-primary text-white"
-                                    : "rounded-bl-none bg-[#2f2348]/80 text-white/90 border border-white/5 backdrop-blur-sm"
+                            <div className={`text-sm font-medium leading-relaxed max-w-[320px] rounded-2xl px-5 py-4 shadow-soft ${message.role === "user"
+                                ? "rounded-br-none bg-gradient-to-r from-primary to-accent-pink text-white"
+                                : "rounded-bl-none bg-white text-slate-800 border border-slate-100"
                                 }`}>
                                 {message.content.split("\n").map((line, i) => (
                                     <p key={i} className={i > 0 ? "mt-2" : ""}>{line}</p>
@@ -190,13 +190,13 @@ export function OracleChat({ cards, isReversed, isRevealed, onSendMessage }: Ora
                 {/* Typing Indicator */}
                 {isLoading && (
                     <div className="flex items-end gap-3">
-                        <div className="bg-gradient-to-br from-primary/50 to-purple-900 rounded-full w-10 h-10 shrink-0 border border-accent-gold/30 flex items-center justify-center">
-                            <span className="material-symbols-outlined text-accent-gold text-lg">auto_awesome</span>
+                        <div className="bg-primary/10 rounded-full w-10 h-10 shrink-0 border border-primary/20 flex items-center justify-center">
+                            <span className="material-symbols-outlined text-primary text-lg">auto_awesome</span>
                         </div>
-                        <div className="flex items-center gap-1 px-5 py-4 rounded-2xl rounded-bl-none bg-[#2f2348]/80">
-                            <span className="w-2 h-2 bg-accent-gold rounded-full typing-dot-1"></span>
-                            <span className="w-2 h-2 bg-accent-gold rounded-full typing-dot-2"></span>
-                            <span className="w-2 h-2 bg-accent-gold rounded-full typing-dot-3"></span>
+                        <div className="flex items-center gap-1.5 px-5 py-4 rounded-2xl rounded-bl-none bg-white shadow-soft border border-slate-100">
+                            <span className="w-2 h-2 bg-primary rounded-full animate-bounce"></span>
+                            <span className="w-2 h-2 bg-primary rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></span>
+                            <span className="w-2 h-2 bg-primary rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></span>
                         </div>
                     </div>
                 )}
@@ -205,12 +205,12 @@ export function OracleChat({ cards, isReversed, isRevealed, onSendMessage }: Ora
             </div>
 
             {/* Input Area */}
-            <div className="p-4 bg-background-dark/90 backdrop-blur-lg border-t border-white/5 pb-6">
+            <div className="p-4 bg-white/95 backdrop-blur-xl border-t border-primary/5 pb-8 relative z-20">
                 <div className="flex items-center gap-3">
-                    <label className="flex flex-col h-12 flex-1">
-                        <div className="flex w-full flex-1 items-stretch rounded-xl h-full shadow-inner bg-[#2f2348] border border-white/5 focus-within:border-primary/50 transition-colors">
+                    <label className="flex flex-col h-14 flex-1">
+                        <div className="flex w-full flex-1 items-stretch rounded-2xl h-full shadow-inner bg-slate-50 border border-slate-200 focus-within:border-primary/50 focus-within:bg-white transition-all">
                             <input
-                                className="flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-0 border-none bg-transparent h-full placeholder:text-[#a492c9]/70 px-4 text-sm font-normal leading-normal"
+                                className="flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-2xl text-slate-800 focus:outline-0 focus:ring-0 border-none bg-transparent h-full placeholder:text-slate-400 px-5 text-base font-medium leading-normal"
                                 placeholder={t("input_placeholder")}
                                 value={input}
                                 onChange={(e) => setInput(e.target.value)}
@@ -218,11 +218,11 @@ export function OracleChat({ cards, isReversed, isRevealed, onSendMessage }: Ora
                             />
                             <div className="flex items-center justify-center pr-2">
                                 <button
-                                    className="flex items-center justify-center size-8 rounded-lg bg-primary hover:bg-primary/80 text-white transition-colors disabled:opacity-50"
+                                    className="flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent-pink hover:opacity-90 text-white transition-all shadow-md disabled:opacity-50 disabled:grayscale"
                                     onClick={handleSend}
                                     disabled={!input.trim() || isLoading}
                                 >
-                                    <span className="material-symbols-outlined" style={{ fontSize: "18px" }}>arrow_upward</span>
+                                    <span className="material-symbols-outlined" style={{ fontSize: "20px" }}>send</span>
                                 </button>
                             </div>
                         </div>

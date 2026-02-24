@@ -69,27 +69,22 @@ export function FourPillars() {
     return (
         <section>
             <div className="flex items-center justify-between mb-4 px-1">
-                <h3 className="text-primary tracking-wide text-xl font-bold">{t("four_pillars")}</h3>
-                <span className="text-xs text-slate-400 bg-white/5 px-2 py-1 rounded">{t("solar_cal")}</span>
+                <h3 className="text-slate-800 tracking-wide text-xl font-bold">{t("four_pillars")}</h3>
+                <span className="text-[10px] font-bold tracking-wider text-slate-500 bg-slate-100 px-2.5 py-1 rounded-full">{t("solar_cal")}</span>
             </div>
             <div className="grid grid-cols-4 gap-2 md:gap-4">
                 {pillars.map((pillar, index) => (
                     <div key={index} className="flex flex-col gap-2 relative">
                         {pillar.isMaster && (
-                            <div className="absolute -top-2 left-1/2 -translate-x-1/2 text-[10px] bg-primary text-black font-bold px-2 py-0.5 rounded-full z-10 shadow-[0_0_10px_rgba(236,182,19,0.3)]">
+                            <div className="absolute -top-3 left-1/2 -translate-x-1/2 text-[10px] bg-gradient-to-r from-primary to-accent-pink text-white font-bold px-3 py-1 rounded-full z-10 shadow-md whitespace-nowrap">
                                 {t("master")}
                             </div>
                         )}
-                        <div className={`text-center text-xs text-slate-400 uppercase tracking-widest mb-1 ${pillar.isMaster ? 'mt-2' : ''}`}>
+                        <div className={`text-center text-xs text-slate-500 font-bold uppercase tracking-widest mb-1 ${pillar.isMaster ? 'mt-2' : ''}`}>
                             {t(pillar.timeframe)}
                         </div>
                         <div
-                            className={`glass-panel rounded-xl p-3 flex flex-col items-center gap-3 border-t-2 ${getElementBorder(pillar.stemElement)} ${pillar.isMaster ? 'bg-primary/5 shadow-[0_0_10px_rgba(236,182,19,0.3)]' : ''}`}
-                            style={{
-                                background: 'rgba(44, 38, 22, 0.4)',
-                                backdropFilter: 'blur(12px)',
-                                border: '1px solid rgba(236, 182, 19, 0.1)'
-                            }}
+                            className={`rounded-[1.5rem] p-3 flex flex-col items-center gap-3 border-t-4 transition-all ${getElementBorder(pillar.stemElement)} ${pillar.isMaster ? 'bg-slate-50 border-x border-b border-primary/10 shadow-soft scale-[1.02]' : 'bg-white border-x border-b border-primary/5 shadow-sm'}`}
                         >
                             {/* Heavenly Stem */}
                             <div className="flex flex-col items-center">
@@ -98,7 +93,7 @@ export function FourPillars() {
                                     {t(pillar.stemElement)}
                                 </span>
                             </div>
-                            <div className={`w-full h-px ${pillar.isMaster ? 'bg-primary/20' : 'bg-white/10'}`}></div>
+                            <div className={`w-full h-px ${pillar.isMaster ? 'bg-primary/20' : 'bg-slate-100'}`}></div>
                             {/* Earthly Branch */}
                             <div className="flex flex-col items-center">
                                 <span className="font-chinese text-2xl font-bold mb-1">{pillar.branch}</span>

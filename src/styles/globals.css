@@ -6,8 +6,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-background-dark text-white font-display antialiased;
-  background-image: linear-gradient(180deg, #161022 0%, #2a1b3d 50%, #161022 100%);
+  @apply bg-background-light text-text-main font-display antialiased;
   min-height: 100dvh;
 }
 
