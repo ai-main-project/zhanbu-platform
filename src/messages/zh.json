@@ -1,6 +1,10 @@
 {
+  "Metadata": {
+    "title": "Mystic AI - AI 算命助手",
+    "description": "AI 驱动的八字排盘、塔罗占卜与面相分析，揭示命运的奥秘。"
+  },
   "Header": {
-    "title": "灵启之门",
+    "title": "灵启 AI",
     "login": "登录",
     "register": "注册"
   },
@@ -22,61 +26,126 @@
     "horoscope": "星座运势"
   },
   "Hero": {
-    "title": "探索你命运的奥秘",
-    "subtitle": "融合古代智慧与现代科技，为您提供深刻的人生洞见。",
-    "cta": "获取您的八字解读"
+    "badge": "v2.0 全新上线",
+    "title_prefix": "解锁你的",
+    "title_highlight": "命运",
+    "subtitle": "古老智慧与未来科技的融合。探索星辰为你揭示的秘密。",
+    "cta": "开启你的旅程"
   },
   "Services": {
-    "title": "我们的服务",
-    "description": "多种工具助您探索人生的不同方面。",
-    "bazi_title": "八字解读",
-    "bazi_description": "深入了解您的个性、潜力与未来。",
-    "astrology_title": "占星术",
-    "astrology_description": "通过星盘揭示您的人生蓝图。",
-    "tarot_title": "塔罗牌解读",
-    "tarot_description": "为您的疑问找到答案，为您的道路提供指引。",
-    "horoscope_title": "星座运势",
-    "horoscope_description": "查看您的每日、每周和每月运势。"
-  },
-  "FeaturedMaster": {
-    "featured_badge": "特邀大师",
-    "title": "特邀大师",
-    "master_name": "玄机大师",
-    "master_bio": "拥有30年八字与风水经验，玄机大师致力于帮助人们找到人生的清晰方向。",
-    "master_bio_extended": "玄机大师不仅精通传统的八字命理与风水学，还结合了现代心理学与大数据分析。在过去三十年中，他已为数万名客户提供了精准的人生导航与运势建议。",
-    "learn_more": "了解更多",
-    "reviews": "基于 128 条评价",
-    "about": "关于 {master_name}"
-  },
-  "InteractiveTool": {
-    "title": "体验互动占卜",
-    "description": "无需等待，立即获得来自宇宙的即时指引。",
-    "try_now": "立即试用",
-    "tarot_tab": "每日塔罗",
-    "zodiac_tab": "星座速配",
-    "tarot_description": "抽一张牌，看看今日宇宙给你的启示。",
-    "tarot_cta": "抽取我的今日塔罗牌",
-    "zodiac_description": "输入你和TA的星座，看看你们的匹配指数。"
-  },
-  "Testimonials": {
-    "title": "用户评价",
-    "testimonial_1_text": "这是我做过的最准的八字解读，让我的职业道路清晰了很多。",
-    "testimonial_1_author": "陈雅",
-    "testimonial_2_text": "合盘对我们的关系非常有启发，我现在更了解我的伴侣了。",
-    "testimonial_2_author": "张磊",
-    "testimonial_3_text": "一开始对AI解读持怀疑态度，但报告出乎意料地详细和准确。强烈推荐！",
-    "testimonial_3_author": "李莎"
-  },
-  "CallToAction": {
-    "title": "准备好开始您的旅程了吗？",
-    "description": "加入成千上万通过我们平台找到指引和灵感的用户的行列。",
-    "get_started": "免费开始",
-    "dialog_title": "订阅电子报",
-    "dialog_description": "输入您的邮箱，第一时间接收来自宇宙的神秘信息。",
-    "dialog_cta": "确认订阅"
+    "label": "服务项目",
+    "title": "宇宙服务",
+    "tarot_title": "AI 塔罗占卜",
+    "tarot_description": "奥秘牌的数字化解读。揭示你的过去、现在和未来。",
+    "tarot_cta": "开始占卜",
+    "face_title": "AI 智能面相",
+    "face_description": "结合传统相学与现代AI技术，扫描面部特征，解析性格与运势。",
+    "face_cta": "立即扫脸",
+    "astrology_title": "星盘占星",
+    "astrology_description": "基于出生星图的深度解析，探寻行星排列对您命运的影响。",
+    "astrology_cta": "查看星盘",
+    "powered_by": "由 GPT-4 驱动",
+    "readings_count": "10,000+ 次解读完成"
   },
   "Footer": {
-    "copyright": "© {year} 灵启之门. 版权所有."
+    "copyright": "© {year} 灵启 AI. 版权所有."
+  },
+  "BottomNav": {
+    "home": "首页",
+    "tarot": "塔罗",
+    "face": "面相",
+    "astrology": "算命",
+    "profile": "我的"
+  },
+  "Profile": {
+    "title": "个人中心",
+    "level_badge": "Lv.5 寻星者",
+    "daily_insight": "今日洞察",
+    "luck_score": "气运分",
+    "today": "今日",
+    "mindfulness": "正念",
+    "day_streak": "日连签",
+    "reports": "报告",
+    "lifetime_total": "累计生成",
+    "my_journey": "我的旅程",
+    "vault_title": "宿命库",
+    "vault_desc": "历史解读与洞察",
+    "saved_tarot": "塔罗收藏",
+    "saved_tarot_desc": "您的灵性收藏集",
+    "credits_title": "AI 咨询点数",
+    "credits_desc": "管理您的余额",
+    "settings_title": "命理设置",
+    "settings_desc": "生辰八字与偏好",
+    "premium_title": "解锁宇宙洞见",
+    "premium_desc": "升级黄金会员，畅享无限解读与深度分析",
+    "upgrade_btn": "升级黄金会员"
+  },
+  "TarotSession": {
+    "title": "三张牌牌阵",
+    "end": "结束",
+    "reveal_all": "揭示全部",
+    "past": "过去",
+    "present": "现在",
+    "future": "未来",
+    "oracle_name": "神谕者",
+    "oracle_intro": "牌已在灵境中排列完成。\n\n在我们开始之前，请深呼吸。将你的能量集中在一个问题上，或者敞开心扉接受宇宙想要向你展示的信息。",
+    "oracle_reading_fallback": "今天的宇宙能量特别强大。你抽到的牌象征着转变与成长。相信你的直觉来解读它们的智慧。",
+    "oracle_error": "灵境连接暂时中断。请重试，宇宙将分享它的智慧。",
+    "input_placeholder": "向牌问一个问题..."
+  },
+  "FaceReading": {
+    "title": "AI 面相解读",
+    "scanning": "扫描中...",
+    "hold_steady": "请保持静止以进行精准运势面相分析",
+    "camera_active": "摄像头运行中",
+    "nav_home": "首页",
+    "nav_scan": "扫描",
+    "nav_history": "历史",
+    "nav_profile": "我的"
+  },
+  "Dashboard": {
+    "title": "今日运势",
+    "luck_score": "运势指数",
+    "alignment_msg": "今日星象显示能量场极强。请把握这一势头。",
+    "vital_aspects": "关键运势",
+    "love": "桃花运",
+    "love_status": "潜力无限",
+    "career": "事业运",
+    "career_status": "巅峰状态",
+    "wealth": "财运",
+    "wealth_status": "稳中有升",
+    "oracle_title": "AI 每日神谕",
+    "oracle_subtitle": "神谕智慧",
+    "oracle_message": "今天水星与你的沟通宫位对齐。这是提出你酝酿已久的大胆想法的绝佳时机。在爱情中，耐心是关键——在亮出底牌之前，等待对方先迈出第一步。",
+    "ask_followup": "追问详情"
+  },
+  "BaziReport": {
+    "title": "命理详批",
+    "four_pillars": "八字四柱",
+    "solar_cal": "公历",
+    "master": "日主",
+    "year": "年柱",
+    "month": "月柱",
+    "day": "日柱",
+    "hour": "时柱",
+    "wood": "木",
+    "fire": "火",
+    "earth": "土",
+    "metal": "金",
+    "water": "水",
+    "elemental_balance": "五行平衡",
+    "insight_title": "大师解读",
+    "personality_title": "核心性格",
+    "personality_insight": "您的命盘显示<fire>阳火</fire>旺盛，暗示着充满魅力和激情的天性。您是天生的<highlight>领袖</highlight>，喜欢在聚光灯下绽放。然而，缺水意味着您在适应快速变化的环境时可能会感到吃力。您的决策迅速，有时略显冲动，更多由直觉而非详细分析驱动。",
+    "career_title": "事业发展",
+    "career_insight": "年柱与月柱的组合指向在需要<highlight>公开演讲</highlight>、媒体或创业领域取得成功。命盘中“官星”显着，意味着您在拥有自主权时表现最佳。避免常规的办公室工作；您需要一个展示的舞台。",
+    "wealth_title": "财富潜力",
+    "wealth_insight": "财运显示将在您的<white>中年</white>（35-45岁）到来。您的财星为金，目前较弱但将受到未来十年大运的支持。专注于建立<highlight>战略互补的伙伴关系</highlight>以夯实您的财务基础。",
+    "ask_followup": "追问详情",
+    "nav_home": "首页",
+    "nav_report": "报告",
+    "nav_chat": "咨询",
+    "nav_profile": "我的"
   },
   "Tarot": {
     "landing_title": "塔罗占卜",
@@ -229,6 +298,342 @@
       "keywords": "完成, 整合, 成就, 旅行",
       "meaning_up": "象征完成，满足，完整，以及生命各方面的整合。",
       "meaning_rev": "寻求个人了结，走捷径，延迟。"
+    },
+    "ace_of_wands": {
+      "name": "权杖王牌",
+      "keywords": "小阿卡纳, 权杖",
+      "meaning_up": "权杖王牌正位",
+      "meaning_rev": "权杖王牌逆位"
+    },
+    "two_of_wands": {
+      "name": "权杖二",
+      "keywords": "小阿卡纳, 权杖",
+      "meaning_up": "权杖二正位",
+      "meaning_rev": "权杖二逆位"
+    },
+    "three_of_wands": {
+      "name": "权杖三",
+      "keywords": "小阿卡纳, 权杖",
+      "meaning_up": "权杖三正位",
+      "meaning_rev": "权杖三逆位"
+    },
+    "four_of_wands": {
+      "name": "权杖四",
+      "keywords": "小阿卡纳, 权杖",
+      "meaning_up": "权杖四正位",
+      "meaning_rev": "权杖四逆位"
+    },
+    "five_of_wands": {
+      "name": "权杖五",
+      "keywords": "小阿卡纳, 权杖",
+      "meaning_up": "权杖五正位",
+      "meaning_rev": "权杖五逆位"
+    },
+    "six_of_wands": {
+      "name": "权杖六",
+      "keywords": "小阿卡纳, 权杖",
+      "meaning_up": "权杖六正位",
+      "meaning_rev": "权杖六逆位"
+    },
+    "seven_of_wands": {
+      "name": "权杖七",
+      "keywords": "小阿卡纳, 权杖",
+      "meaning_up": "权杖七正位",
+      "meaning_rev": "权杖七逆位"
+    },
+    "eight_of_wands": {
+      "name": "权杖八",
+      "keywords": "小阿卡纳, 权杖",
+      "meaning_up": "权杖八正位",
+      "meaning_rev": "权杖八逆位"
+    },
+    "nine_of_wands": {
+      "name": "权杖九",
+      "keywords": "小阿卡纳, 权杖",
+      "meaning_up": "权杖九正位",
+      "meaning_rev": "权杖九逆位"
+    },
+    "ten_of_wands": {
+      "name": "权杖十",
+      "keywords": "小阿卡纳, 权杖",
+      "meaning_up": "权杖十正位",
+      "meaning_rev": "权杖十逆位"
+    },
+    "page_of_wands": {
+      "name": "权杖侍从",
+      "keywords": "小阿卡纳, 权杖",
+      "meaning_up": "权杖侍从正位",
+      "meaning_rev": "权杖侍从逆位"
+    },
+    "knight_of_wands": {
+      "name": "权杖骑士",
+      "keywords": "小阿卡纳, 权杖",
+      "meaning_up": "权杖骑士正位",
+      "meaning_rev": "权杖骑士逆位"
+    },
+    "queen_of_wands": {
+      "name": "权杖王后",
+      "keywords": "小阿卡纳, 权杖",
+      "meaning_up": "权杖王后正位",
+      "meaning_rev": "权杖王后逆位"
+    },
+    "king_of_wands": {
+      "name": "权杖国王",
+      "keywords": "小阿卡纳, 权杖",
+      "meaning_up": "权杖国王正位",
+      "meaning_rev": "权杖国王逆位"
+    },
+    "ace_of_cups": {
+      "name": "圣杯王牌",
+      "keywords": "小阿卡纳, 圣杯",
+      "meaning_up": "圣杯王牌正位",
+      "meaning_rev": "圣杯王牌逆位"
+    },
+    "two_of_cups": {
+      "name": "圣杯二",
+      "keywords": "小阿卡纳, 圣杯",
+      "meaning_up": "圣杯二正位",
+      "meaning_rev": "圣杯二逆位"
+    },
+    "three_of_cups": {
+      "name": "圣杯三",
+      "keywords": "小阿卡纳, 圣杯",
+      "meaning_up": "圣杯三正位",
+      "meaning_rev": "圣杯三逆位"
+    },
+    "four_of_cups": {
+      "name": "圣杯四",
+      "keywords": "小阿卡纳, 圣杯",
+      "meaning_up": "圣杯四正位",
+      "meaning_rev": "圣杯四逆位"
+    },
+    "five_of_cups": {
+      "name": "圣杯五",
+      "keywords": "小阿卡纳, 圣杯",
+      "meaning_up": "圣杯五正位",
+      "meaning_rev": "圣杯五逆位"
+    },
+    "six_of_cups": {
+      "name": "圣杯六",
+      "keywords": "小阿卡纳, 圣杯",
+      "meaning_up": "圣杯六正位",
+      "meaning_rev": "圣杯六逆位"
+    },
+    "seven_of_cups": {
+      "name": "圣杯七",
+      "keywords": "小阿卡纳, 圣杯",
+      "meaning_up": "圣杯七正位",
+      "meaning_rev": "圣杯七逆位"
+    },
+    "eight_of_cups": {
+      "name": "圣杯八",
+      "keywords": "小阿卡纳, 圣杯",
+      "meaning_up": "圣杯八正位",
+      "meaning_rev": "圣杯八逆位"
+    },
+    "nine_of_cups": {
+      "name": "圣杯九",
+      "keywords": "小阿卡纳, 圣杯",
+      "meaning_up": "圣杯九正位",
+      "meaning_rev": "圣杯九逆位"
+    },
+    "ten_of_cups": {
+      "name": "圣杯十",
+      "keywords": "小阿卡纳, 圣杯",
+      "meaning_up": "圣杯十正位",
+      "meaning_rev": "圣杯十逆位"
+    },
+    "page_of_cups": {
+      "name": "圣杯侍从",
+      "keywords": "小阿卡纳, 圣杯",
+      "meaning_up": "圣杯侍从正位",
+      "meaning_rev": "圣杯侍从逆位"
+    },
+    "knight_of_cups": {
+      "name": "圣杯骑士",
+      "keywords": "小阿卡纳, 圣杯",
+      "meaning_up": "圣杯骑士正位",
+      "meaning_rev": "圣杯骑士逆位"
+    },
+    "queen_of_cups": {
+      "name": "圣杯王后",
+      "keywords": "小阿卡纳, 圣杯",
+      "meaning_up": "圣杯王后正位",
+      "meaning_rev": "圣杯王后逆位"
+    },
+    "king_of_cups": {
+      "name": "圣杯国王",
+      "keywords": "小阿卡纳, 圣杯",
+      "meaning_up": "圣杯国王正位",
+      "meaning_rev": "圣杯国王逆位"
+    },
+    "ace_of_swords": {
+      "name": "宝剑王牌",
+      "keywords": "小阿卡纳, 宝剑",
+      "meaning_up": "宝剑王牌正位",
+      "meaning_rev": "宝剑王牌逆位"
+    },
+    "two_of_swords": {
+      "name": "宝剑二",
+      "keywords": "小阿卡纳, 宝剑",
+      "meaning_up": "宝剑二正位",
+      "meaning_rev": "宝剑二逆位"
+    },
+    "three_of_swords": {
+      "name": "宝剑三",
+      "keywords": "小阿卡纳, 宝剑",
+      "meaning_up": "宝剑三正位",
+      "meaning_rev": "宝剑三逆位"
+    },
+    "four_of_swords": {
+      "name": "宝剑四",
+      "keywords": "小阿卡纳, 宝剑",
+      "meaning_up": "宝剑四正位",
+      "meaning_rev": "宝剑四逆位"
+    },
+    "five_of_swords": {
+      "name": "宝剑五",
+      "keywords": "小阿卡纳, 宝剑",
+      "meaning_up": "宝剑五正位",
+      "meaning_rev": "宝剑五逆位"
+    },
+    "six_of_swords": {
+      "name": "宝剑六",
+      "keywords": "小阿卡纳, 宝剑",
+      "meaning_up": "宝剑六正位",
+      "meaning_rev": "宝剑六逆位"
+    },
+    "seven_of_swords": {
+      "name": "宝剑七",
+      "keywords": "小阿卡纳, 宝剑",
+      "meaning_up": "宝剑七正位",
+      "meaning_rev": "宝剑七逆位"
+    },
+    "eight_of_swords": {
+      "name": "宝剑八",
+      "keywords": "小阿卡纳, 宝剑",
+      "meaning_up": "宝剑八正位",
+      "meaning_rev": "宝剑八逆位"
+    },
+    "nine_of_swords": {
+      "name": "宝剑九",
+      "keywords": "小阿卡纳, 宝剑",
+      "meaning_up": "宝剑九正位",
+      "meaning_rev": "宝剑九逆位"
+    },
+    "ten_of_swords": {
+      "name": "宝剑十",
+      "keywords": "小阿卡纳, 宝剑",
+      "meaning_up": "宝剑十正位",
+      "meaning_rev": "宝剑十逆位"
+    },
+    "page_of_swords": {
+      "name": "宝剑侍从",
+      "keywords": "小阿卡纳, 宝剑",
+      "meaning_up": "宝剑侍从正位",
+      "meaning_rev": "宝剑侍从逆位"
+    },
+    "knight_of_swords": {
+      "name": "宝剑骑士",
+      "keywords": "小阿卡纳, 宝剑",
+      "meaning_up": "宝剑骑士正位",
+      "meaning_rev": "宝剑骑士逆位"
+    },
+    "queen_of_swords": {
+      "name": "宝剑王后",
+      "keywords": "小阿卡纳, 宝剑",
+      "meaning_up": "宝剑王后正位",
+      "meaning_rev": "宝剑王后逆位"
+    },
+    "king_of_swords": {
+      "name": "宝剑国王",
+      "keywords": "小阿卡纳, 宝剑",
+      "meaning_up": "宝剑国王正位",
+      "meaning_rev": "宝剑国王逆位"
+    },
+    "ace_of_pentacles": {
+      "name": "星币王牌",
+      "keywords": "小阿卡纳, 星币",
+      "meaning_up": "星币王牌正位",
+      "meaning_rev": "星币王牌逆位"
+    },
+    "two_of_pentacles": {
+      "name": "星币二",
+      "keywords": "小阿卡纳, 星币",
+      "meaning_up": "星币二正位",
+      "meaning_rev": "星币二逆位"
+    },
+    "three_of_pentacles": {
+      "name": "星币三",
+      "keywords": "小阿卡纳, 星币",
+      "meaning_up": "星币三正位",
+      "meaning_rev": "星币三逆位"
+    },
+    "four_of_pentacles": {
+      "name": "星币四",
+      "keywords": "小阿卡纳, 星币",
+      "meaning_up": "星币四正位",
+      "meaning_rev": "星币四逆位"
+    },
+    "five_of_pentacles": {
+      "name": "星币五",
+      "keywords": "小阿卡纳, 星币",
+      "meaning_up": "星币五正位",
+      "meaning_rev": "星币五逆位"
+    },
+    "six_of_pentacles": {
+      "name": "星币六",
+      "keywords": "小阿卡纳, 星币",
+      "meaning_up": "星币六正位",
+      "meaning_rev": "星币六逆位"
+    },
+    "seven_of_pentacles": {
+      "name": "星币七",
+      "keywords": "小阿卡纳, 星币",
+      "meaning_up": "星币七正位",
+      "meaning_rev": "星币七逆位"
+    },
+    "eight_of_pentacles": {
+      "name": "星币八",
+      "keywords": "小阿卡纳, 星币",
+      "meaning_up": "星币八正位",
+      "meaning_rev": "星币八逆位"
+    },
+    "nine_of_pentacles": {
+      "name": "星币九",
+      "keywords": "小阿卡纳, 星币",
+      "meaning_up": "星币九正位",
+      "meaning_rev": "星币九逆位"
+    },
+    "ten_of_pentacles": {
+      "name": "星币十",
+      "keywords": "小阿卡纳, 星币",
+      "meaning_up": "星币十正位",
+      "meaning_rev": "星币十逆位"
+    },
+    "page_of_pentacles": {
+      "name": "星币侍从",
+      "keywords": "小阿卡纳, 星币",
+      "meaning_up": "星币侍从正位",
+      "meaning_rev": "星币侍从逆位"
+    },
+    "knight_of_pentacles": {
+      "name": "星币骑士",
+      "keywords": "小阿卡纳, 星币",
+      "meaning_up": "星币骑士正位",
+      "meaning_rev": "星币骑士逆位"
+    },
+    "queen_of_pentacles": {
+      "name": "星币王后",
+      "keywords": "小阿卡纳, 星币",
+      "meaning_up": "星币王后正位",
+      "meaning_rev": "星币王后逆位"
+    },
+    "king_of_pentacles": {
+      "name": "星币国王",
+      "keywords": "小阿卡纳, 星币",
+      "meaning_up": "星币国王正位",
+      "meaning_rev": "星币国王逆位"
     }
   },
   "Palmistry": {

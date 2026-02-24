@@ -1,6 +1,10 @@
 {
+  "Metadata": {
+    "title": "Mystic AI - Your AI Fortune Teller",
+    "description": "Unlock your destiny with AI-powered Bazi, Tarot, and Face Reading."
+  },
   "Header": {
-    "title": "Gate of Divine Revelation",
+    "title": "Mystic AI",
     "login": "Login",
     "register": "Register"
   },
@@ -22,61 +26,126 @@
     "horoscope": "Horoscope"
   },
   "Hero": {
-    "title": "Explore the Mysteries of Your Destiny",
-    "subtitle": "Integrating ancient wisdom with modern technology to provide you with profound life insights.",
-    "cta": "Get Your Bazi Reading"
+    "badge": "v2.0 Now Live",
+    "title_prefix": "Unlock Your",
+    "title_highlight": "Destiny",
+    "subtitle": "Ancient wisdom meets future intelligence. Discover what the stars hold for you today.",
+    "cta": "Start Your Journey"
   },
   "Services": {
-    "title": "Our Services",
-    "description": "A variety of tools to help you explore different aspects of your life.",
-    "bazi_title": "Bazi Reading",
-    "bazi_description": "Gain deep insights into your personality, potential, and future.",
-    "astrology_title": "Astrology Chart",
-    "astrology_description": "Understand your life's blueprint through the positions of the stars.",
-    "tarot_title": "Tarot Reading",
-    "tarot_description": "Find answers to your questions and guidance for your path.",
-    "horoscope_title": "Zodiac Horoscope",
-    "horoscope_description": "Check your daily, weekly, and monthly horoscope."
-  },
-  "FeaturedMaster": {
-    "featured_badge": "Featured Master",
-    "title": "Featured Master",
-    "master_name": "Master Xuanji",
-    "master_bio": "With 30 years of experience in Bazi and Feng Shui, Master Xuanji is dedicated to helping people find clarity and direction in life.",
-    "master_bio_extended": "Master Xuanji is not only an expert in traditional Bazi and Feng Shui but also integrates modern psychology and big data analysis. Over the past 30 years, he has provided precise life navigation and destiny advice to tens of thousands of clients.",
-    "learn_more": "Learn More",
-    "reviews": "Based on 128 reviews",
-    "about": "About {master_name}"
-  },
-  "InteractiveTool": {
-    "title": "Try Our Interactive Bazi Tool",
-    "description": "Enter your birth information to get your personalized Bazi chart and interpretation instantly.",
-    "try_now": "Try Now",
-    "tarot_tab": "Daily Tarot",
-    "zodiac_tab": "Zodiac Match",
-    "tarot_description": "Draw a card to see what the universe has in store for you today.",
-    "tarot_cta": "Draw My Daily Tarot Card",
-    "zodiac_description": "Enter your and your partner's zodiac signs to see your compatibility."
-  },
-  "Testimonials": {
-    "title": "What Our Users Say",
-    "testimonial_1_text": "This is the most accurate Bazi reading I've ever had. It gave me so much clarity on my career path.",
-    "testimonial_1_author": "Aria Chen",
-    "testimonial_2_text": "The synastry chart was incredibly insightful for my relationship. I understand my partner so much better now.",
-    "testimonial_2_author": "Leo Zhang",
-    "testimonial_3_text": "I was skeptical about AI reading at first, but the report was surprisingly detailed and accurate. Highly recommended!",
-    "testimonial_3_author": "Sara Li"
-  },
-  "CallToAction": {
-    "title": "Ready to Begin Your Journey?",
-    "description": "Join thousands of users who have found guidance and inspiration through our platform.",
-    "get_started": "Get Started for Free",
-    "dialog_title": "Subscribe to our newsletter",
-    "dialog_description": "Enter your email to receive mystical insights from the universe.",
-    "dialog_cta": "Subscribe"
+    "label": "Offerings",
+    "title": "Cosmic Services",
+    "tarot_title": "AI Tarot Reading",
+    "tarot_description": "Digital interpretations of the arcana. Reveal your past, present, and future.",
+    "tarot_cta": "Read Cards",
+    "face_title": "AI Face Physiognomy",
+    "face_description": "Instant personality analysis via camera scanning technology.",
+    "face_cta": "Scan Face",
+    "astrology_title": "Cosmic Astrology",
+    "astrology_description": "Real-time planetary alignment insights customized for your sign.",
+    "astrology_cta": "View Chart",
+    "powered_by": "Powered by GPT-4",
+    "readings_count": "10k+ Readings Completed"
   },
   "Footer": {
-    "copyright": "© {year} Gate of Divine Revelation. All rights reserved."
+    "copyright": "© {year} Mystic AI. All rights reserved."
+  },
+  "BottomNav": {
+    "home": "Home",
+    "tarot": "Tarot",
+    "face": "Face",
+    "astrology": "Astrology",
+    "profile": "Profile"
+  },
+  "Profile": {
+    "title": "Profile",
+    "level_badge": "Level 5: Star Seeker",
+    "daily_insight": "Daily Insight",
+    "luck_score": "Luck Score",
+    "today": "today",
+    "mindfulness": "Mindfulness",
+    "day_streak": "Day Streak",
+    "reports": "Reports",
+    "lifetime_total": "Lifetime total",
+    "my_journey": "My Journey",
+    "vault_title": "My Destiny Vault",
+    "vault_desc": "Past readings & insights",
+    "saved_tarot": "Saved Tarot Readings",
+    "saved_tarot_desc": "Your spiritual collection",
+    "credits_title": "AI Consultation Credits",
+    "credits_desc": "Manage your balance",
+    "settings_title": "Astrology Settings",
+    "settings_desc": "Birth chart & preferences",
+    "premium_title": "Unlock Cosmic Insight",
+    "premium_desc": "Get unlimited readings & deep analysis with Gold.",
+    "upgrade_btn": "Upgrade to Gold"
+  },
+  "TarotSession": {
+    "title": "Three-Card Spread",
+    "end": "End",
+    "reveal_all": "Reveal All",
+    "past": "Past",
+    "present": "Present",
+    "future": "Future",
+    "oracle_name": "The Oracle",
+    "oracle_intro": "The cards have aligned in the ethereal plane.\n\nBefore we begin, breathe deeply. Focus your energy on a question, or simply open your mind to what the universe wishes to show you.",
+    "oracle_reading_fallback": "The cosmic energies are particularly strong today. The cards you've drawn speak of transformation and growth. Trust your intuition as you interpret their wisdom.",
+    "oracle_error": "The ethereal connection was momentarily disrupted. Please try again, and the universe will share its wisdom.",
+    "input_placeholder": "Ask the cards a question..."
+  },
+  "FaceReading": {
+    "title": "AI Face Reading",
+    "scanning": "Scanning...",
+    "hold_steady": "Hold steady for accurate fortune mapping",
+    "camera_active": "Camera Active",
+    "nav_home": "Home",
+    "nav_scan": "Scan",
+    "nav_history": "History",
+    "nav_profile": "Profile"
+  },
+  "Dashboard": {
+    "title": "Daily Fortune",
+    "luck_score": "Luck Score",
+    "alignment_msg": "Your cosmic alignment is exceptionally strong today. Seize the momentum.",
+    "vital_aspects": "Vital Aspects",
+    "love": "Love Luck",
+    "love_status": "High potential",
+    "career": "Career Luck",
+    "career_status": "Peak performance",
+    "wealth": "Wealth Luck",
+    "wealth_status": "Moderate gains",
+    "oracle_title": "Your Daily AI Oracle",
+    "oracle_subtitle": "Oracle's Wisdom",
+    "oracle_message": "Today, Mercury aligns with your sector of communication. It is an excellent day to pitch that bold idea you've been nurturing. In love, patience is key—wait for them to make the first move before you reveal your hand.",
+    "ask_followup": "Ask follow-up"
+  },
+  "BaziReport": {
+    "title": "Destiny Analysis",
+    "four_pillars": "The Four Pillars",
+    "solar_cal": "Solar Cal.",
+    "master": "Master",
+    "year": "Year",
+    "month": "Month",
+    "day": "Day",
+    "hour": "Hour",
+    "wood": "Wood",
+    "fire": "Fire",
+    "earth": "Earth",
+    "metal": "Metal",
+    "water": "Water",
+    "elemental_balance": "Elemental Balance",
+    "insight_title": "Grandmaster's Insight",
+    "personality_title": "Core Personality",
+    "personality_insight": "Your chart reveals a strong dominance of <fire>Yang Fire</fire>, suggesting a charismatic and passionate nature. You are a natural-born <highlight>leader</highlight> who thrives in the spotlight. However, the lack of Water indicates you may struggle with adaptability in rapidly changing environments. Your decision-making is swift, sometimes impulsive, driven by intuition rather than detailed analysis.",
+    "career_title": "Career Trajectory",
+    "career_insight": "The interaction between your Year and Month pillars points towards success in fields requiring <highlight>public speaking</highlight>, media, or entrepreneurship. The \"Officer Star\" in your chart is prominent, meaning you work best when you have autonomy. Avoid routine office jobs; you need a stage to perform.",
+    "wealth_title": "Wealth Potential",
+    "wealth_insight": "Wealth luck is indicated to arrive in your <white>middle age</white> (35-45). Your wealth element is Metal, which is currently weak but supported by the coming decade cycle. Focus on building <highlight>strategic partnerships</highlight> to bolster your financial foundations.",
+    "ask_followup": "Ask follow-up question",
+    "nav_home": "Home",
+    "nav_report": "Report",
+    "nav_chat": "Chat",
+    "nav_profile": "Profile"
   },
   "Tarot": {
     "landing_title": "Tarot Reading",
@@ -229,6 +298,342 @@
       "keywords": "Completion, integration, accomplishment, travel",
       "meaning_up": "Signifies completion, fulfillment, wholeness, and the integration of all aspects of life.",
       "meaning_rev": "Seeking personal closure, short-cuts, delays."
+    },
+    "ace_of_wands": {
+      "name": "Ace of Wands",
+      "keywords": "Minor Arcana, Wands",
+      "meaning_up": "Upright meaning for Ace of Wands",
+      "meaning_rev": "Reversed meaning for Ace of Wands"
+    },
+    "two_of_wands": {
+      "name": "Two of Wands",
+      "keywords": "Minor Arcana, Wands",
+      "meaning_up": "Upright meaning for Two of Wands",
+      "meaning_rev": "Reversed meaning for Two of Wands"
+    },
+    "three_of_wands": {
+      "name": "Three of Wands",
+      "keywords": "Minor Arcana, Wands",
+      "meaning_up": "Upright meaning for Three of Wands",
+      "meaning_rev": "Reversed meaning for Three of Wands"
+    },
+    "four_of_wands": {
+      "name": "Four of Wands",
+      "keywords": "Minor Arcana, Wands",
+      "meaning_up": "Upright meaning for Four of Wands",
+      "meaning_rev": "Reversed meaning for Four of Wands"
+    },
+    "five_of_wands": {
+      "name": "Five of Wands",
+      "keywords": "Minor Arcana, Wands",
+      "meaning_up": "Upright meaning for Five of Wands",
+      "meaning_rev": "Reversed meaning for Five of Wands"
+    },
+    "six_of_wands": {
+      "name": "Six of Wands",
+      "keywords": "Minor Arcana, Wands",
+      "meaning_up": "Upright meaning for Six of Wands",
+      "meaning_rev": "Reversed meaning for Six of Wands"
+    },
+    "seven_of_wands": {
+      "name": "Seven of Wands",
+      "keywords": "Minor Arcana, Wands",
+      "meaning_up": "Upright meaning for Seven of Wands",
+      "meaning_rev": "Reversed meaning for Seven of Wands"
+    },
+    "eight_of_wands": {
+      "name": "Eight of Wands",
+      "keywords": "Minor Arcana, Wands",
+      "meaning_up": "Upright meaning for Eight of Wands",
+      "meaning_rev": "Reversed meaning for Eight of Wands"
+    },
+    "nine_of_wands": {
+      "name": "Nine of Wands",
+      "keywords": "Minor Arcana, Wands",
+      "meaning_up": "Upright meaning for Nine of Wands",
+      "meaning_rev": "Reversed meaning for Nine of Wands"
+    },
+    "ten_of_wands": {
+      "name": "Ten of Wands",
+      "keywords": "Minor Arcana, Wands",
+      "meaning_up": "Upright meaning for Ten of Wands",
+      "meaning_rev": "Reversed meaning for Ten of Wands"
+    },
+    "page_of_wands": {
+      "name": "Page of Wands",
+      "keywords": "Minor Arcana, Wands",
+      "meaning_up": "Upright meaning for Page of Wands",
+      "meaning_rev": "Reversed meaning for Page of Wands"
+    },
+    "knight_of_wands": {
+      "name": "Knight of Wands",
+      "keywords": "Minor Arcana, Wands",
+      "meaning_up": "Upright meaning for Knight of Wands",
+      "meaning_rev": "Reversed meaning for Knight of Wands"
+    },
+    "queen_of_wands": {
+      "name": "Queen of Wands",
+      "keywords": "Minor Arcana, Wands",
+      "meaning_up": "Upright meaning for Queen of Wands",
+      "meaning_rev": "Reversed meaning for Queen of Wands"
+    },
+    "king_of_wands": {
+      "name": "King of Wands",
+      "keywords": "Minor Arcana, Wands",
+      "meaning_up": "Upright meaning for King of Wands",
+      "meaning_rev": "Reversed meaning for King of Wands"
+    },
+    "ace_of_cups": {
+      "name": "Ace of Cups",
+      "keywords": "Minor Arcana, Cups",
+      "meaning_up": "Upright meaning for Ace of Cups",
+      "meaning_rev": "Reversed meaning for Ace of Cups"
+    },
+    "two_of_cups": {
+      "name": "Two of Cups",
+      "keywords": "Minor Arcana, Cups",
+      "meaning_up": "Upright meaning for Two of Cups",
+      "meaning_rev": "Reversed meaning for Two of Cups"
+    },
+    "three_of_cups": {
+      "name": "Three of Cups",
+      "keywords": "Minor Arcana, Cups",
+      "meaning_up": "Upright meaning for Three of Cups",
+      "meaning_rev": "Reversed meaning for Three of Cups"
+    },
+    "four_of_cups": {
+      "name": "Four of Cups",
+      "keywords": "Minor Arcana, Cups",
+      "meaning_up": "Upright meaning for Four of Cups",
+      "meaning_rev": "Reversed meaning for Four of Cups"
+    },
+    "five_of_cups": {
+      "name": "Five of Cups",
+      "keywords": "Minor Arcana, Cups",
+      "meaning_up": "Upright meaning for Five of Cups",
+      "meaning_rev": "Reversed meaning for Five of Cups"
+    },
+    "six_of_cups": {
+      "name": "Six of Cups",
+      "keywords": "Minor Arcana, Cups",
+      "meaning_up": "Upright meaning for Six of Cups",
+      "meaning_rev": "Reversed meaning for Six of Cups"
+    },
+    "seven_of_cups": {
+      "name": "Seven of Cups",
+      "keywords": "Minor Arcana, Cups",
+      "meaning_up": "Upright meaning for Seven of Cups",
+      "meaning_rev": "Reversed meaning for Seven of Cups"
+    },
+    "eight_of_cups": {
+      "name": "Eight of Cups",
+      "keywords": "Minor Arcana, Cups",
+      "meaning_up": "Upright meaning for Eight of Cups",
+      "meaning_rev": "Reversed meaning for Eight of Cups"
+    },
+    "nine_of_cups": {
+      "name": "Nine of Cups",
+      "keywords": "Minor Arcana, Cups",
+      "meaning_up": "Upright meaning for Nine of Cups",
+      "meaning_rev": "Reversed meaning for Nine of Cups"
+    },
+    "ten_of_cups": {
+      "name": "Ten of Cups",
+      "keywords": "Minor Arcana, Cups",
+      "meaning_up": "Upright meaning for Ten of Cups",
+      "meaning_rev": "Reversed meaning for Ten of Cups"
+    },
+    "page_of_cups": {
+      "name": "Page of Cups",
+      "keywords": "Minor Arcana, Cups",
+      "meaning_up": "Upright meaning for Page of Cups",
+      "meaning_rev": "Reversed meaning for Page of Cups"
+    },
+    "knight_of_cups": {
+      "name": "Knight of Cups",
+      "keywords": "Minor Arcana, Cups",
+      "meaning_up": "Upright meaning for Knight of Cups",
+      "meaning_rev": "Reversed meaning for Knight of Cups"
+    },
+    "queen_of_cups": {
+      "name": "Queen of Cups",
+      "keywords": "Minor Arcana, Cups",
+      "meaning_up": "Upright meaning for Queen of Cups",
+      "meaning_rev": "Reversed meaning for Queen of Cups"
+    },
+    "king_of_cups": {
+      "name": "King of Cups",
+      "keywords": "Minor Arcana, Cups",
+      "meaning_up": "Upright meaning for King of Cups",
+      "meaning_rev": "Reversed meaning for King of Cups"
+    },
+    "ace_of_swords": {
+      "name": "Ace of Swords",
+      "keywords": "Minor Arcana, Swords",
+      "meaning_up": "Upright meaning for Ace of Swords",
+      "meaning_rev": "Reversed meaning for Ace of Swords"
+    },
+    "two_of_swords": {
+      "name": "Two of Swords",
+      "keywords": "Minor Arcana, Swords",
+      "meaning_up": "Upright meaning for Two of Swords",
+      "meaning_rev": "Reversed meaning for Two of Swords"
+    },
+    "three_of_swords": {
+      "name": "Three of Swords",
+      "keywords": "Minor Arcana, Swords",
+      "meaning_up": "Upright meaning for Three of Swords",
+      "meaning_rev": "Reversed meaning for Three of Swords"
+    },
+    "four_of_swords": {
+      "name": "Four of Swords",
+      "keywords": "Minor Arcana, Swords",
+      "meaning_up": "Upright meaning for Four of Swords",
+      "meaning_rev": "Reversed meaning for Four of Swords"
+    },
+    "five_of_swords": {
+      "name": "Five of Swords",
+      "keywords": "Minor Arcana, Swords",
+      "meaning_up": "Upright meaning for Five of Swords",
+      "meaning_rev": "Reversed meaning for Five of Swords"
+    },
+    "six_of_swords": {
+      "name": "Six of Swords",
+      "keywords": "Minor Arcana, Swords",
+      "meaning_up": "Upright meaning for Six of Swords",
+      "meaning_rev": "Reversed meaning for Six of Swords"
+    },
+    "seven_of_swords": {
+      "name": "Seven of Swords",
+      "keywords": "Minor Arcana, Swords",
+      "meaning_up": "Upright meaning for Seven of Swords",
+      "meaning_rev": "Reversed meaning for Seven of Swords"
+    },
+    "eight_of_swords": {
+      "name": "Eight of Swords",
+      "keywords": "Minor Arcana, Swords",
+      "meaning_up": "Upright meaning for Eight of Swords",
+      "meaning_rev": "Reversed meaning for Eight of Swords"
+    },
+    "nine_of_swords": {
+      "name": "Nine of Swords",
+      "keywords": "Minor Arcana, Swords",
+      "meaning_up": "Upright meaning for Nine of Swords",
+      "meaning_rev": "Reversed meaning for Nine of Swords"
+    },
+    "ten_of_swords": {
+      "name": "Ten of Swords",
+      "keywords": "Minor Arcana, Swords",
+      "meaning_up": "Upright meaning for Ten of Swords",
+      "meaning_rev": "Reversed meaning for Ten of Swords"
+    },
+    "page_of_swords": {
+      "name": "Page of Swords",
+      "keywords": "Minor Arcana, Swords",
+      "meaning_up": "Upright meaning for Page of Swords",
+      "meaning_rev": "Reversed meaning for Page of Swords"
+    },
+    "knight_of_swords": {
+      "name": "Knight of Swords",
+      "keywords": "Minor Arcana, Swords",
+      "meaning_up": "Upright meaning for Knight of Swords",
+      "meaning_rev": "Reversed meaning for Knight of Swords"
+    },
+    "queen_of_swords": {
+      "name": "Queen of Swords",
+      "keywords": "Minor Arcana, Swords",
+      "meaning_up": "Upright meaning for Queen of Swords",
+      "meaning_rev": "Reversed meaning for Queen of Swords"
+    },
+    "king_of_swords": {
+      "name": "King of Swords",
+      "keywords": "Minor Arcana, Swords",
+      "meaning_up": "Upright meaning for King of Swords",
+      "meaning_rev": "Reversed meaning for King of Swords"
+    },
+    "ace_of_pentacles": {
+      "name": "Ace of Pentacles",
+      "keywords": "Minor Arcana, Pentacles",
+      "meaning_up": "Upright meaning for Ace of Pentacles",
+      "meaning_rev": "Reversed meaning for Ace of Pentacles"
+    },
+    "two_of_pentacles": {
+      "name": "Two of Pentacles",
+      "keywords": "Minor Arcana, Pentacles",
+      "meaning_up": "Upright meaning for Two of Pentacles",
+      "meaning_rev": "Reversed meaning for Two of Pentacles"
+    },
+    "three_of_pentacles": {
+      "name": "Three of Pentacles",
+      "keywords": "Minor Arcana, Pentacles",
+      "meaning_up": "Upright meaning for Three of Pentacles",
+      "meaning_rev": "Reversed meaning for Three of Pentacles"
+    },
+    "four_of_pentacles": {
+      "name": "Four of Pentacles",
+      "keywords": "Minor Arcana, Pentacles",
+      "meaning_up": "Upright meaning for Four of Pentacles",
+      "meaning_rev": "Reversed meaning for Four of Pentacles"
+    },
+    "five_of_pentacles": {
+      "name": "Five of Pentacles",
+      "keywords": "Minor Arcana, Pentacles",
+      "meaning_up": "Upright meaning for Five of Pentacles",
+      "meaning_rev": "Reversed meaning for Five of Pentacles"
+    },
+    "six_of_pentacles": {
+      "name": "Six of Pentacles",
+      "keywords": "Minor Arcana, Pentacles",
+      "meaning_up": "Upright meaning for Six of Pentacles",
+      "meaning_rev": "Reversed meaning for Six of Pentacles"
+    },
+    "seven_of_pentacles": {
+      "name": "Seven of Pentacles",
+      "keywords": "Minor Arcana, Pentacles",
+      "meaning_up": "Upright meaning for Seven of Pentacles",
+      "meaning_rev": "Reversed meaning for Seven of Pentacles"
+    },
+    "eight_of_pentacles": {
+      "name": "Eight of Pentacles",
+      "keywords": "Minor Arcana, Pentacles",
+      "meaning_up": "Upright meaning for Eight of Pentacles",
+      "meaning_rev": "Reversed meaning for Eight of Pentacles"
+    },
+    "nine_of_pentacles": {
+      "name": "Nine of Pentacles",
+      "keywords": "Minor Arcana, Pentacles",
+      "meaning_up": "Upright meaning for Nine of Pentacles",
+      "meaning_rev": "Reversed meaning for Nine of Pentacles"
+    },
+    "ten_of_pentacles": {
+      "name": "Ten of Pentacles",
+      "keywords": "Minor Arcana, Pentacles",
+      "meaning_up": "Upright meaning for Ten of Pentacles",
+      "meaning_rev": "Reversed meaning for Ten of Pentacles"
+    },
+    "page_of_pentacles": {
+      "name": "Page of Pentacles",
+      "keywords": "Minor Arcana, Pentacles",
+      "meaning_up": "Upright meaning for Page of Pentacles",
+      "meaning_rev": "Reversed meaning for Page of Pentacles"
+    },
+    "knight_of_pentacles": {
+      "name": "Knight of Pentacles",
+      "keywords": "Minor Arcana, Pentacles",
+      "meaning_up": "Upright meaning for Knight of Pentacles",
+      "meaning_rev": "Reversed meaning for Knight of Pentacles"
+    },
+    "queen_of_pentacles": {
+      "name": "Queen of Pentacles",
+      "keywords": "Minor Arcana, Pentacles",
+      "meaning_up": "Upright meaning for Queen of Pentacles",
+      "meaning_rev": "Reversed meaning for Queen of Pentacles"
+    },
+    "king_of_pentacles": {
+      "name": "King of Pentacles",
+      "keywords": "Minor Arcana, Pentacles",
+      "meaning_up": "Upright meaning for King of Pentacles",
+      "meaning_rev": "Reversed meaning for King of Pentacles"
     }
   },
   "Palmistry": {
